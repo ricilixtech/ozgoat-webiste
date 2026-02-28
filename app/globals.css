@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* Root Theme Variables */
+:root {
+  --background: #ad6ac7;
+  --foreground: #171717;
+
+  /* Next.js font variables will override these */
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+}
+
+/* Tailwind Theme Mapping */
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+}
+
+/* Force Absolute White Background */
+html,
+body {
+  background-color: #0f1c63;
+  color: var(--foreground);
+  font-family: var(--font-body);
+  scroll-behavior: smooth;
+}
+
+/* Automatically Apply Heading Font */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* Hide Scrollbar */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Marquee Animation */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 60s linear infinite;
+}
+
+.animate-scroll-reverse {
+  animation: scroll 60s linear infinite reverse;
+}

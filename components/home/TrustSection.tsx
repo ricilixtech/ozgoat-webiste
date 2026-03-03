@@ -61,12 +61,16 @@ const TrustSection = () => {
 
         {/* Heading */}
         <div className="text-center mb-14">
+        <div
+            className="font-heading tracking-tight py-2 justify-between item-center text-center leading-tight text-sm text-neutral-400 font-bold mb-4"
+          ><a className="rounded-2xl px-2 py-2 bg-blue-950">
+            WHAT CLIENTs SAY</a>
+          </div>
           <h2 className="font-heading font-bold tracking-tight text-4xl md:text-5xl text-white mb-4">
-            Trusted by{" "}
-            <span className="text-blue-500">Aussie Businesses</span>
+          Glowing Reviews
           </h2>
           <p className="text-lg text-neutral-400 max-w-2xl mx-auto">
-            Join companies that transformed operations with Ricilix.
+          Big or small, every project receives the same level of experience, structure and commitment and our reviews reflect that..
           </p>
         </div>
 
@@ -93,10 +97,10 @@ const TrustSection = () => {
                 lg:min-w-[420px]
                 xl:min-w-[480px]
 
-                bg-gradient-to-br from-blue-950 via-black to-black
+                bg-gray-800
                 p-8
                 rounded-2xl
-                border border-blue-800
+                border border-gray-800
 
                 shadow-[8px_8px_30px_rgba(37,99,235,0.25)]
                 hover:shadow-[14px_14px_50px_rgba(37,99,235,0.45)]

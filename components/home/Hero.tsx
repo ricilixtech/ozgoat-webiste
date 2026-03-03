@@ -50,7 +50,7 @@ const Hero = () => {
           <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }}>
             <motion.h1 variants={slideInLeft} className="tracking-tight leading-tight font-heading text-1px text-white mb-2">
               <p className="text-blue-400 border border-gray-700 rounded-4xl px-2 py-1">
-                <span className="mr-1 font-bold bg-blue-700 border border-blue-700 rounded-2xl p-1 text-white">NEW</span>{" "}
+                <span className="mr-1 font-bold bg-blue-700 border border-blue-700 rounded-3xl px-1 text-white">new</span>{" "}
                 Value Driven, AI-Focused Development Company
               </p>
             </motion.h1>

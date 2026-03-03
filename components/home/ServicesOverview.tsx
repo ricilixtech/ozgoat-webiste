@@ -57,7 +57,7 @@ const slideUp: Variants = {
 
 const ServicesOverview = () => {
   return (
-    <section className="py-16 md:py-20 bg-gradient-to-b from-black to-blue-950 ">
+    <section className="py-16 md:py-20 bg-white">
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -69,16 +69,22 @@ const ServicesOverview = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
         >
+           <motion.div
+            variants={slideLeft}
+            className="font-heading tracking-tight leading-tight text-sm text-neutral-400 font-bold mb-4"
+          >
+            WHAT WE DO
+          </motion.div>
           <motion.h2
             variants={slideLeft}
-            className="font-heading tracking-tight leading-tight text-4xl md:text-4xl text-white font-bold mb-4"
+            className="font-heading tracking-tight leading-tight text-4xl md:text-4xl text-neutral-900 font-bold mb-4"
           >
-            Three Pillars Of <span className="text-blue-600 ">Transformation</span>{" "}
+            Three Ways We Help Your <span className="text-blue-600 ">Business Grow</span>{" "}
           </motion.h2>
 
           <motion.p
             variants={slideLeft}
-            className="text-lg text-neutral-400 max-w-2xl mx-auto"
+            className="text-lg text-neutral-600 max-w-2xl mx-auto"
           >
             Whether you need something built from scratch, your operations streamlined, or a tech team to grow with you: we've got you covered.
           </motion.p>

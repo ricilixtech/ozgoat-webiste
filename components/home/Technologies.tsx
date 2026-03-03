@@ -88,13 +88,13 @@ const Technologies = () => {
                 {/* Heading */}
                 <div className="text-center mb-14">
                     <h2 className="text-3xl md:text-4xl font-bold font-heading text-white mb-4">
-                        50+ Techlonogies <span className="text-blue-500">
-                            . One partner
-                        </span>{" "}
+                    45+ Team of Experts Skilled
+                    in <span className="text-blue-500">
+                    50+ Cutting-Edge 
+                        </span>{" "}Technologies
                     </h2>
                     <p className="text-neutral-300 max-w-2xl mx-auto text-sm md:text-base">
-                        We leverage industry-leading automation, AI, and CRM technologies
-                        to build scalable business systems.
+                    Design. Develop. Maintain. Scale. Your full-stack development partner for every technology need.
                     </p>
                 </div>
 

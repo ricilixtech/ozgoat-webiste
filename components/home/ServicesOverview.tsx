@@ -59,7 +59,7 @@ const ServicesOverview = () => {
   return (
     <section className="py-16 md:py-20 bg-white">
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* ================= HEADING SECTION ================= */}
         <motion.div
@@ -69,7 +69,7 @@ const ServicesOverview = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
         >
-           <motion.div
+          <motion.div
             variants={slideLeft}
             className="font-heading tracking-tight leading-tight text-sm text-neutral-400 font-bold mb-4"
           >
@@ -102,131 +102,116 @@ const ServicesOverview = () => {
           {/* CARD 1 */}
           <motion.div
             variants={slideUp}
-            className="w-full shadow-[8px_8px_20px_rgba(59,130,246,0.35)] "
+            className="w-full shadow-[0_-8px_20px_rgba(59,130,246,0.45)] rounded-xl"
           >
-           
-              <div className="bg-gradient-to-br from-black to-blue-900 border border-blue-900 p-6 sm:p-8 rounded-xl shadow-sm hover:shadow-md transform hover:scale-105 transition duration-300 cursor-pointer h-full flex flex-col justify-between">
+            <div className="bg-white border border-gray-300 p-6 sm:p-8 rounded-xl h-full flex flex-col justify-between">
 
-                {/* Icon + Heading */}
-                <div>
-                  <div className="text-3xl mb-4">🔧</div>
+              {/* Icon + Heading */}
+              <div>
+                <h3 className="text-blue-600 font-bold font-heading text-2xl mb-3">
+                  <span className="text-2xl mb-4">🔧</span> Build
+                </h3>
 
-                  <h3 className="text-white font-bold font-heading text-xl mb-3">
-                    Build
-                  </h3>
+                <p className="text-neutral-500 text-sm mb-4">
+                  Custom software and integrations that fit your workflow not the other way around.
+                </p>
 
-                  <p className="text-neutral-400 text-sm mb-4">
-                    Custom software and integrations that fit your workflow not the other way around.
-                  </p>
-
-                  {/* Bullet Points */}
-                  <ul className="text-neutral-300 text-sm space-y-2 list-disc list-inside">
-                    <li>Web & mobile apps</li>
-                    <li>CRM/ERP integrations</li>
-                    <li>Dashboards & reporting</li>
-                    <li>Cloud deployments (GCP/AWS)</li>
-                  </ul>
-                </div>
-
-                {/* Button */}
-                <div className="mt-6">
-                  <Link href="/services">
-                    <button className="px-4 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2.5 rounded-lg transition duration-300">
-                      Explore Deployment →
-                    </button>
-                  </Link>
-                </div>
-
+                {/* Bullet Points */}
+                <ul className="text-gray-800 text-sm space-y-2 list-disc list-inside">
+                  <li>Web & mobile apps</li>
+                  <li>CRM/ERP integrations</li>
+                  <li>Dashboards & reporting</li>
+                  <li>Cloud deployments (GCP/AWS)</li>
+                </ul>
               </div>
-            
+
+              {/* Divider + Button */}
+              <div className="mt-6 pt-4 border-t border-gray-200">
+                <Link href="/services">
+                  <button className="px-4 cursor-pointer text-black hover:text-gray-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
+                    Explore Deployment →
+                  </button>
+                </Link>
+              </div>
+
+            </div>
           </motion.div>
 
 
           {/* CARD 2 */}
           <motion.div
             variants={slideUp}
-            className="w-full shadow-[8px_8px_20px_rgba(59,130,246,0.35)] "
+            className="w-full shadow-[0_-8px_20px_rgba(59,130,246,0.45)] rounded-xl"
           >
-            
-              <div className="bg-gradient-to-br from-black to-blue-900 border border-blue-900 p-6 sm:p-8 rounded-xl shadow-sm hover:shadow-md transform hover:scale-105 transition duration-300 cursor-pointer h-full flex flex-col justify-between">
+            <div className="bg-white border border-gray-300 p-6 sm:p-8 rounded-xl h-full flex flex-col justify-between">
 
-                {/* Icon + Heading */}
-                <div>
-                  <div className="text-3xl mb-4">⚙️</div>
+              {/* Icon + Heading */}
+              <div>
+                <h3 className="text-blue-600 font-bold font-heading text-2xl mb-3">
+                  <span className="text-2xl mb-4">⚙️</span> Automate
+                </h3>
 
-                  <h3 className="text-white font-bold font-heading text-xl mb-3">
-                  Automate
-                  </h3>
-
-                  <p className="text-neutral-400 text-sm mb-4">
+                <p className="text-neutral-500 text-sm mb-4">
                   Remove repetitive admin with automation and AI so your team can focus on work that matters.
-                  </p>
+                </p>
 
-                  {/* Bullet Points */}
-                  <ul className="text-neutral-300 text-sm space-y-2 list-disc list-inside">
-                    <li>Zapier & low-code workflows</li>
-                    <li>AI document processing</li>
-                    <li>Chatbots & internal tools</li>
-                    <li>Reporting automation</li>
-                  </ul>
-                </div>
-
-                {/* Button */}
-                <div className="mt-6">
-                  <Link href="/services">
-                    <button className="px-4 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2.5 rounded-lg transition duration-300">
-                      Explore Automation →
-                    </button>
-                  </Link>
-                </div>
-
+                {/* Bullet Points */}
+                <ul className="text-gray-800 text-sm space-y-2 list-disc list-inside">
+                  <li>Zapier & low-code workflows</li>
+                  <li>AI document processing</li>
+                  <li>Chatbots & internal tools</li>
+                  <li>Reporting automation</li>
+                </ul>
               </div>
-            
+
+              {/* Divider + Button */}
+              <div className="mt-6 pt-4 border-t border-gray-200">
+                <Link href="/services">
+                  <button className="px-4 cursor-pointer text-black hover:text-gray-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
+                    Explore Automation →
+                  </button>
+                </Link>
+              </div>
+
+            </div>
           </motion.div>
-
-
           {/* CARD 3 */}
-          <motion.div
-            variants={slideUp}
-            className="w-full shadow-[8px_8px_20px_rgba(59,130,246,0.35)] "
-          >
-            
-              <div className="bg-gradient-to-br from-black to-blue-900 border border-blue-900 p-6 sm:p-8 rounded-xl shadow-sm hover:shadow-md transform hover:scale-105 transition duration-300 cursor-pointer h-full flex flex-col justify-between">
+<motion.div
+  variants={slideUp}
+  className="w-full shadow-[0_-8px_20px_rgba(59,130,246,0.45)] rounded-xl"
+>
+  <div className="bg-white border border-gray-300 p-6 sm:p-8 rounded-xl h-full flex flex-col justify-between">
 
-                {/* Icon + Heading */}
-                <div>
-                  <div className="text-3xl mb-4">📈
-                  </div>
+    {/* Icon + Heading */}
+    <div>
+      <h3 className="text-blue-600 font-bold font-heading text-2xl mb-3">
+        <span className="text-2xl mb-4">📈</span> Scale
+      </h3>
 
-                  <h3 className="text-white font-bold font-heading text-xl mb-3">
-                  Scale
-                  </h3>
+      <p className="text-neutral-500 text-sm mb-4">
+        We step in as your tech arm without full-time overheads: the right expertise, when you need it.
+      </p>
 
-                  <p className="text-neutral-400 text-sm mb-4">
-                  We step in as your tech arm without full-time overheads: the right expertise, when you need it.
-                  </p>
+      {/* Bullet Points */}
+      <ul className="text-gray-800 text-sm space-y-2 list-disc list-inside">
+        <li>Staff augmentation</li>
+        <li>Offshore delivery pods</li>
+        <li>Product & delivery support</li>
+        <li>Monitoring & improvements</li>
+      </ul>
+    </div>
 
-                  {/* Bullet Points */}
-                  <ul className="text-neutral-300 text-sm space-y-2 list-disc list-inside">
-                    <li>Staff augmentation</li>
-                    <li>Offshore delivery pods</li>
-                    <li>Product & delivery support</li>
-                    <li>Monitoring & improvements</li>
-                  </ul>
-                </div>
+    {/* Divider + Button */}
+    <div className="mt-6 pt-4 border-t border-gray-200">
+      <Link href="/services">
+        <button className="px-4 cursor-pointer text-black hover:text-gray-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
+          Explore Support →
+        </button>
+      </Link>
+    </div>
 
-                {/* Button */}
-                <div className="mt-6">
-                  <Link href="/services">
-                    <button className="px-4 bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium py-2.5 rounded-lg transition duration-300">
-                      Explore Support →
-                    </button>
-                  </Link>
-                </div>
-
-              </div>
-            
-          </motion.div>
+  </div>
+</motion.div>
         </motion.div>
       </div>
     </section>

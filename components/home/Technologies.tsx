@@ -52,12 +52,12 @@ const TechRow = ({
                         key={index}
                         className="
 flex items-center gap-2 md:gap-3
-bg-gray-700 backdrop-blur-md shadow-md
+bg-gray-900 backdrop-blur-md shadow-md
 rounded-xl md:rounded-2xl
 px-3 md:px-6
 py-2 md:py-3
-min-w-[120px] md:min-w-[190px]
-border border-purple-100
+min-w-[60px] md:min-w-[120px]
+border border-gray-700
 hover:shadow-purple-200 hover:shadow-lg
 transition-all duration-300
 "       >
@@ -82,22 +82,21 @@ transition-all duration-300
 
 const Technologies = () => {
     return (
-        <section className="py-20 bg-gradient-to-b from-blue-950 to-black overflow-hidden">
+        <section className="py-20 bg-black to-black overflow-hidden">
             <div className=" px-6">
 
                 {/* Heading */}
-                <div className="text-center mb-14">
-                    <h2 className="text-3xl md:text-4xl font-bold font-heading text-white mb-4">
-                    45+ Team of Experts Skilled
-                    in <span className="text-blue-500">
-                    50+ Cutting-Edge 
-                        </span>{" "}Technologies
-                    </h2>
-                    <p className="text-neutral-300 max-w-2xl mx-auto text-sm md:text-base">
-                    Design. Develop. Maintain. Scale. Your full-stack development partner for every technology need.
-                    </p>
-                </div>
-
+                <div className="flex flex-col items-center justify-center text-center pb-15  px-4">
+  <div className=" max-w-2xl">
+    <h2 className="text-3xl md:text-4xl font-bold font-heading text-white mb-4">
+      45+ Team of Experts Skilled in{" "}
+      <span className="text-blue-500">50+ Cutting-Edge</span> Technologies
+    </h2>
+    <p className="text-neutral-400 text-sm md:text-base">
+      Design. Develop. Maintain. Scale. Your full-stack development partner for every technology need.
+    </p>
+  </div>
+</div>
                 {/* Desktop → 2 Rows */}
                 <div className="hidden md:block space-y-12">
                     <TechRow items={row1Technologies} />

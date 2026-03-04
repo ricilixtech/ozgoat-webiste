@@ -55,7 +55,7 @@ const Hero = () => {
               </p>
             </motion.h1>
             <motion.h1 variants={slideInLeft} className="tracking-tight font-bold leading-tight font-heading text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl text-white mb-2">
-              Expert AI Solutions & Custom <p className="text-blue-400">Automation Services</p> in Australia
+              Expert AI Solutions & Custom Business <p className="text-blue-500">Automation Services</p> in Australia
             </motion.h1>
             <motion.p variants={slideInLeft} className="text-base md:text-lg xl:text-xl 2xl:w-3/5 text-neutral-400 mb-8">
               We are a premier Software Development Company specializing in Custom CRM Development, AI Chatbot Integration, and Enterprise Software Systems. Trusted by Aussie businesses and SMEs. 45+ experts, 50+ technologies, delivering innovation since 2020.

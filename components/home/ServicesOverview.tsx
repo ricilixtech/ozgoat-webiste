@@ -71,7 +71,7 @@ const ServicesOverview = () => {
         >
           <motion.div
             variants={slideLeft}
-            className="font-heading tracking-tight leading-tight text-sm text-neutral-400 font-bold mb-4"
+            className="font-heading tracking-tight leading-tight text-sm text-gray-500 mb-4"
           >
             WHAT WE DO
           </motion.div>

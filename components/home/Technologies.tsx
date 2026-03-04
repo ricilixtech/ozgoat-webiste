@@ -2,6 +2,8 @@
 
 import Image from "next/image";
 
+import Link from "next/link";
+
 const row1Technologies = [
     { name: "Python", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
     { name: "Zapier", logo: "https://cdn.simpleicons.org/zapier" },
@@ -82,54 +84,58 @@ transition-all duration-300
 
 const Technologies = () => {
     return (
-        <section className="py-20 bg-black to-black overflow-hidden">
-            <div className=" px-6">
-
-                {/* Heading */}
-                <div className="flex flex-col items-center justify-center text-center pb-15  px-4">
-  <div className=" max-w-2xl">
-    <h2 className="text-3xl md:text-4xl font-bold font-heading text-white mb-4">
-      45+ Team of Experts Skilled in{" "}
-      <span className="text-blue-500">50+ Cutting-Edge</span> Technologies
-    </h2>
-    <p className="text-neutral-400 text-sm md:text-base">
-      Design. Develop. Maintain. Scale. Your full-stack development partner for every technology need.
-    </p>
-  </div>
-</div>
-                {/* Desktop → 2 Rows */}
-                <div className="hidden md:block space-y-12">
-                    <TechRow items={row1Technologies} />
-                    <TechRow items={row2Technologies} reverse />
-                </div>
-
-                {/* Mobile → 2 Rows */}
-                <div className="md:hidden space-y-2">
-                    <TechRow items={row1Technologies} />
-                    <TechRow items={row2Technologies} reverse />
-
-                </div>
-
+      <section className="py-20 bg-black overflow-hidden">
+        <div className="px-6">
+  
+          {/* Heading */}
+          <div className="flex flex-col items-center justify-center text-center pb-15 px-4">
+            <div className="max-w-2xl">
+              <h2 className="text-3xl md:text-4xl font-bold font-heading text-white mb-4">
+                45+ Team of Experts Skilled in{" "}
+                <span className="text-blue-500">50+ Cutting-Edge</span> Technologies
+              </h2>
+              <p className="text-neutral-400 text-sm md:text-base">
+                Design. Develop. Maintain. Scale. Your full-stack development partner for every technology need.
+              </p>
             </div>
-            {/* Bottom Statement */}
-            <div className="mt-20 px-6">
-                <div className="max-w-4xl mx-auto text-center">
-
-
-                    <p className="text-neutral-300 text-base md:text-lg leading-relaxed">
-                        We leverage the <span className="font-semibold text-blue-600">latest programming languages</span>,
-                        powerful <span className="font-semibold text-blue-600">AI frameworks</span>,
-                        advanced <span className="font-semibold text-blue-600">automation platforms</span>,
-                        and secure <span className="font-semibold text-blue-600">cloud infrastructure</span>
-                        to design <span className="font-bold text-blue-600">intelligent, scalable systems</span>
-                        that solve real business problems and accelerate sustainable growth.
-                    </p>
-
-                </div>
+          </div>
+  
+          {/* Desktop → 2 Rows */}
+          <div className="hidden md:block space-y-12">
+            <TechRow items={row1Technologies} />
+            <TechRow items={row2Technologies} reverse />
+          </div>
+  
+          {/* Mobile → 2 Rows */}
+          <div className="md:hidden space-y-2">
+            <TechRow items={row1Technologies} />
+            <TechRow items={row2Technologies} reverse />
+          </div>
+  
+          {/* ===== Get a Quote Button ===== */}
+          <div className="flex justify-center mt-12">
+            <Link href="/contact">
+              <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-lg transition duration-300">
+                Get A Quote
+              </button>
+            </Link>
+          </div>
+  
+          {/* Bottom Statement */}
+          <div className="mt-10 px-6">
+            <div className="max-w-4xl mx-auto text-center">
+              <p className="text-neutral-300 text-base md:text-lg leading-relaxed">
+                We leverage the <span className="font-semibold text-blue-600">latest programming languages</span>,
+                powerful <span className="font-semibold text-blue-600">AI frameworks</span>,
+                advanced <span className="font-semibold text-blue-600">automation platforms</span>,
+                and secure <span className="font-semibold text-blue-600">cloud infrastructure</span>
+                to design <span className="font-bold text-blue-600">intelligent, scalable systems</span>
+                that solve real business problems and accelerate sustainable growth.
+              </p>
             </div>
-
-        </section>
+          </div>
+  
+        </div>
+      </section>
     );
-};
-
-export default Technologies;
+  };export default Technologies;

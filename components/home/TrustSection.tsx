@@ -4,25 +4,25 @@ import { useRef, useState, useEffect } from "react";
 
 const testimonials = [
   {
-    company: "KRC Kankai",
+    company: "",
     description: "Automotive rubber spare parts supplier for cars",
     rating: 5,
     review:
-      "Ricilix streamlined our inventory and order management processes. Our operations are now faster and far more efficient.",
+      "OZGOAT streamlined our inventory and order management processes. Our operations are now faster and far more efficient.",
   },
   {
-    company: "Revcharge",
+    company: "",
     description: "EV charger sales and distribution company",
     rating: 4,
     review:
-      "With Ricilix automation and AI integrations, we improved customer inquiries handling and boosted our sales workflow.",
+      "With OZGOAT automation and AI integrations, we improved customer inquiries handling and boosted our sales workflow.",
   },
   {
-    company: "Ihsan Traders",
+    company: "",
     description: "Digital transformation and CRM consultancy",
     rating: 5,
     review:
-      "Ricilix helped streamline our CRM and business processes efficiently.",
+      "OZGOAT helped streamline our CRM and business processes efficiently.",
   },
 ];
 
@@ -56,21 +56,21 @@ const TrustSection = () => {
   }, []);
 
   return (
-    <section className="py-20 bg-gradient-to-b from-blue-950 via-black to-black">
+    <section className="py-20 bg-black">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* Heading */}
         <div className="text-center mb-14">
-        <div
-            className="font-heading tracking-tight py-2 justify-between item-center text-center leading-tight text-sm text-neutral-400 font-bold mb-4"
-          ><a className="rounded-2xl px-2 py-2 bg-blue-950">
-            WHAT CLIENTs SAY</a>
+          <div
+            className="font-heading t py-2 justify-between item-center text-center text-sm text-blue-400 font-medium mb-4"
+          ><a className="rounded-2xl px-3 py-2 bg-blue-950">
+              WHAT CLIENTS SAY</a>
           </div>
           <h2 className="font-heading font-bold tracking-tight text-4xl md:text-5xl text-white mb-4">
-          Glowing Reviews
+            Glowing Reviews
           </h2>
           <p className="text-lg text-neutral-400 max-w-2xl mx-auto">
-          Big or small, every project receives the same level of experience, structure and commitment and our reviews reflect that..
+            Big or small, every project receives the same level of experience, structure and commitment and our reviews reflect that..
           </p>
         </div>
 
@@ -100,7 +100,7 @@ const TrustSection = () => {
                 bg-gray-800
                 p-8
                 rounded-2xl
-                border border-gray-800
+                border border-gray-900
 
                 shadow-[8px_8px_30px_rgba(37,99,235,0.25)]
                 hover:shadow-[14px_14px_50px_rgba(37,99,235,0.45)]
@@ -134,7 +134,16 @@ const TrustSection = () => {
             </div>
           ))}
         </div>
-
+        <div className="mt-10 flex flex-wrap justify-center gap-4">
+          {["SIMPLE", "AFFORDABLE", "ACCESSIBLE", "SECURE", "SCALEABLE"].map((item, index) => (
+            <div
+              key={index}
+              className="px-4 py-2 bg-gray-900 text-gray-400 font-bold rounded-lg text-sm border border-gray-800"
+            >
+              {item}
+            </div>
+          ))}
+        </div>
         {/* Custom Scroll Indicator */}
         <div className="mt-10 w-full max-w-xl mx-auto">
           <div className="relative h-2 bg-blue-900/40 rounded-full overflow-hidden">

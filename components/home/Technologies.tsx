@@ -85,6 +85,11 @@ transition-all duration-300
 const Technologies = () => {
     return (
       <section className="py-20 bg-black overflow-hidden">
+        <div className="flex justify-center mb-4">
+  <div className="font-heading tracking-tight px-3 py-2 leading-tight rounded-2xl bg-blue-950 text-sm text-blue-400 text-center">
+    OUR STACK
+  </div>
+</div>
         <div className="px-6">
   
           {/* Heading */}

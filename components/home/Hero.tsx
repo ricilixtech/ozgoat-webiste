@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion, Variants } from "framer-motion";
+import { Linkedin } from "lucide-react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 
@@ -42,22 +43,22 @@ const slidingWords = [
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-br from-black via-blue-950 to-black py-4 md:py-8 xl:py-10">
+    <section className="bg-gradient-to-br from-black via-blue-950 to-black pt-4 md:pt-8 xl:pt-10">
       <div className="max-w-8xl xl:max-w-none md:py-6 py-4 mx-auto">
         {/* ===== HERO GRID ===== */}
-        <div className="grid md:grid-cols-2 gap-10 xl:gap-16 2xl:gap-24 items-center px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px">
+        <div className="grid md:grid-cols-2 gap-10 xl:gap-16 2xl:gap-24 items-center py-6 px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-20">
           {/* ================= TEXT SECTION ================= */}
           <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }}>
             <motion.h1 variants={slideInLeft} className="tracking-tight leading-tight font-heading text-1px text-white mb-2">
-              <p className="text-blue-400 border border-gray-700 rounded-4xl px-2 py-1">
-                <span className="mr-1 font-bold bg-blue-700 border border-blue-700 rounded-3xl px-1 text-white">new</span>{" "}
+              <p className="text-blue-200 border border-gray-700 rounded-4xl px-2 py-2">
+                <span className="mr-1 font-bold bg-blue-700 border border-blue-700 rounded-3xl px-1 text-white">NEW</span>{" "}
                 Value Driven, AI-Focused Development Company
               </p>
             </motion.h1>
             <motion.h1 variants={slideInLeft} className="tracking-tight font-bold leading-tight font-heading text-4xl md:text-5xl xl:text-6xl 2xl:text-7xl text-white mb-2">
               Expert AI Solutions & Custom Business <p className="text-blue-500">Automation Services</p> in Australia
             </motion.h1>
-            <motion.p variants={slideInLeft} className="text-base md:text-lg xl:text-xl 2xl:w-3/5 text-neutral-400 mb-8">
+            <motion.p variants={slideInLeft} className="text-base font-vody md:text-lg xl:text-xl 2xl:w-3/5 text-neutral-400 mb-8">
               We are a premier Software Development Company specializing in Custom CRM Development, AI Chatbot Integration, and Enterprise Software Systems. Trusted by Aussie businesses and SMEs. 45+ experts, 50+ technologies, delivering innovation since 2020.
             </motion.p>
             <motion.div variants={slideInLeft} className="flex flex-col sm:flex-row gap-4">
@@ -75,23 +76,56 @@ const Hero = () => {
           </motion.div>
 
           {/* ================= IMAGE SECTION ================= */}
-          <motion.div variants={slideInRight} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }} className="relative h-[320px] md:h-[380px] xl:h-[420px] w-full rounded-xl bg-black shadow-[8px_8px_20px_rgba(59,130,246,0.35)]">
-            <Image src="/pictures/HomePage/imran pic.png" alt="Business Automation" fill className="object-contain rounded-xl" priority />
-            <div className="absolute bottom-4 left-4 p-3 rounded-md max-w-xs">
-              <h1 className="text-xl md:text-3xl font-bold text-white drop-shadow-lg">Imran Shaukat</h1>
-              <h2 className="text-blue-300 text-sm md:text-base font-medium drop-shadow-lg mt-1">Founder & Tech Strategist</h2>
-              <p className="text-white text-sm md:text-base drop-shadow-md mt-2">
-                With a belief in Strategy First, Build Second. <span className="font-bold">20+ years</span> helping businesses scale by leveraging the right technology the right way.
+          <motion.div
+            variants={slideInRight}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            className="relative h-[320px] md:h-[380px] xl:h-[420px] w-full rounded-xl bg-white shadow-[8px_8px_20px_rgba(59,130,246,0.35)]"
+          >
+            <Image
+              src="/pictures/HomePage/imran.png"
+              alt="Business Automation"
+              fill
+              className="object-contain rounded-xl"
+              priority
+            />
+
+            {/* Gradient Overlay */}
+            <div className="absolute inset-0 rounded-xl bg-gradient-to-b from-transparent via-black/20 to-black/90"></div>
+
+            <div className="absolute bottom-4 left-4 p-3 rounded-md max-w-md z-10">
+              <h1 className="text-xl font-bold text-white drop-shadow-lg">
+                Imran Shaukat
+              </h1>
+
+              <div className="text-blue-800 text-sm md:text-base drop-shadow-lg">
+                Founder & Tech Strategist
+              </div>
+
+              <p className="text-neutral-300 drop-shadow-md mt-2">
+                With a belief in Strategy First, Build Second.
+                <span className="font-bold"> 20+ years</span> helping businesses scale by
+                leveraging the right technology the right way.
               </p>
+
+              {/* LinkedIn Button */}
+              <a
+                href="/"
+                className="inline-flex items-center gap-2 mt-3 bg-[#0A66C2] hover:bg-[#004182] text-white text-sm font-bold px-4 py-2 rounded-md transition"
+              >
+                <Linkedin size={18} className="bg-white text-[#0A66C2] rounded-sm p-[2px]" />
+                Meet me on LinkedIn
+              </a>
             </div>
           </motion.div>
         </div>
 
-        
+
 
         {/* ================= STATS ================= */}
         <motion.div className="mt-8 text-center w-screen bg-white pt-4 overflow-hidden relative" variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }}>
-          <motion.p variants={slideInLeft} className="text-sm md:text-base text-neutral-900 font-medium mb-4">
+          <motion.p variants={slideInLeft} className="font-bold text-sm text-neutral-900 mb-4">
             GLOBAL ENTERPRISE EXPERIENCE - STARTUP AGILITY
           </motion.p>
 
@@ -132,7 +166,7 @@ const Hero = () => {
             </div>
           </div>
         </motion.div>
-      
+
       </div>
       {/* <motion.div className="m-5  flex justify-center" variants={slideInLeft} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }}>
           <div className="relative w-[220px] h-[95px] sm:w-[260px] sm:h-[115px] md:w-[400px] md:h-[175px] lg:w-[480px] lg:h-[210px] xl:w-[560px] xl:h-[240px] 2xl:w-[620px] 2xl:h-[260px]">

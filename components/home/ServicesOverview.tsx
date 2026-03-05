@@ -57,7 +57,7 @@ const slideUp: Variants = {
 
 const ServicesOverview = () => {
   return (
-    <section className="py-16 md:py-20 bg-white">
+    <section className="py-16 md:py-20 bg-gray-100">
 
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -77,7 +77,7 @@ const ServicesOverview = () => {
           </motion.div>
           <motion.h2
             variants={slideLeft}
-            className="font-heading tracking-tight leading-tight text-4xl md:text-4xl text-neutral-900 font-bold mb-4"
+            className="font-heading tracking-tight leading-tight text-4xl 2xl:text-5xl text-neutral-900 font-bold mb-4"
           >
             Three Ways We Help Your <span className="text-blue-600 ">Business Grow</span>{" "}
           </motion.h2>
@@ -129,7 +129,7 @@ const ServicesOverview = () => {
               <div className="mt-6 pt-4 border-t border-gray-200">
                 <Link href="/services">
                   <button className="px-4 cursor-pointer text-black hover:text-gray-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
-                    Explore Deployment →
+                    Explore Develpoment →
                   </button>
                 </Link>
               </div>
@@ -212,6 +212,154 @@ const ServicesOverview = () => {
 
   </div>
 </motion.div>
+
+{/*------------------------------------------------------ below section */}
+
+        </motion.div>
+      </div>
+
+      <div className="max-w-8xl mx-auto px-4 sm:px-6 md:mt-40 lg:px-8">
+
+        {/* ================= HEADING SECTION ================= */}
+        <motion.div
+          className="text-center mt-20 mb-12"
+          variants={leftContainer}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.3 }}
+        >
+          <div className="w-screen flex items-center justify-center">
+  <motion.div
+    variants={slideLeft}
+    className="font-heading rounded-2xl bg-gray-200 text-blue-500 font-medium text-sm px-6 py-1"
+  >
+    HOW WE WORK
+  </motion.div>
+</div>
+          <motion.h2
+            variants={slideLeft}
+            className="font-heading tracking-tight leading-tight text-4xl 2xl:text-5xl text-neutral-900 font-bold my-4"
+          >
+            <p>Flexible Engagement Models</p>
+            to Suit Your Needs
+          </motion.h2>
+
+          <motion.p
+            variants={slideLeft}
+            className="text-lg text-neutral-600 max-w-2xl mx-auto"
+          >
+            Find the perfect solution for your project: whether you need a fully managed team, staff augmentation, or a fixed-price approach.
+          </motion.p>
+        </motion.div>
+
+        {/* ================= CARDS SECTION ================= */}
+        <motion.div
+          className="grid md:grid-cols-3 gap-8"
+          variants={cardContainer}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.2 }}
+        >
+
+          {/* CARD 1 */}
+          <motion.div
+            variants={slideUp}
+            className="w-full  rounded-xl"
+          >
+            <div className="bg-white border border-gray-300 hover:border-blue-500 hover:bg-blue-100 p-6 sm:p-8 rounded-xl h-full flex flex-col justify-between">
+
+              {/* Icon + Heading */}
+              <div>
+                <h3 className="text-black font-bold font-heading text-2xl mb-3">
+                  <a className="text-3xl mb-4">🧩</a> 
+                  <div className="my-5">Managed Team</div>
+                </h3>
+
+                <p className="text-neutral-500 text-sm mb-4">
+                Your product, our dedicated team. From concept to completion, we handle it all: design, development, QA, and deployment.
+                </p>
+
+                
+              </div>
+
+              {/* Divider + Button */}
+              <div className="pt-4 border-gray-200">
+                <Link href="/services">
+                  <button className="px-4 cursor-pointer text-blue-600 hover:text-blue-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
+                    Contact Us For More Details →
+                  </button>
+                </Link>
+              </div>
+
+            </div>
+          </motion.div>
+
+
+          {/* CARD 2 */}
+          <motion.div
+            variants={slideUp}
+            className="w-full  rounded-xl"
+          >
+            <div className="bg-white border border-gray-300 hover:border-blue-500 hover:bg-blue-100 p-6 sm:p-8 rounded-xl h-full flex flex-col justify-between">
+
+              {/* Icon + Heading */}
+              <div>
+                <h3 className="text-black font-bold font-heading text-2xl mb-3">
+                  <a className="text-3xl mb-4">🔌</a> 
+                  <div className="my-5">Staff Augmentation</div>
+                </h3>
+
+                <p className="text-neutral-500 text-sm mb-4">
+                Need extra hands? Our experts seamlessly join your team, providing the skills you need, exactly when you need them.
+                </p>
+
+                
+              </div>
+
+              {/* Divider + Button */}
+              <div className="pt-4 border-gray-200">
+                <Link href="/services">
+                  <button className="px-4 cursor-pointer text-blue-600 hover:text-blue-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
+                    Contact Us For More Details →
+                  </button>
+                </Link>
+              </div>
+
+            </div>
+          </motion.div>
+          
+          {/* CARD 3 */}
+          <motion.div
+            variants={slideUp}
+            className="w-full  rounded-xl"
+          >
+            <div className="bg-white border border-gray-300 hover:border-blue-500 hover:bg-blue-100 p-6 sm:p-8 rounded-xl h-full flex flex-col justify-between">
+
+              {/* Icon + Heading */}
+              <div>
+                <h3 className="text-black font-bold font-heading text-2xl mb-3">
+                  <a className="text-3xl mb-4">📋</a> 
+                  <div className="my-5">Fixed Cost</div>
+                </h3>
+
+                <p className="text-neutral-500 text-sm mb-4">
+                Upfront price or Hourly rates, guaranteed delivery. Your project completed on time and within budget: no surprises, ever.
+                </p>
+
+                
+              </div>
+
+              {/* Divider + Button */}
+              <div className="pt-4 border-gray-200">
+                <Link href="/services">
+                  <button className="px-4 cursor-pointer text-blue-600 hover:text-blue-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
+                    Contact Us For More Details →
+                  </button>
+                </Link>
+              </div>
+
+            </div>
+          </motion.div>
         </motion.div>
       </div>
     </section>

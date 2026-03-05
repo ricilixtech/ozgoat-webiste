@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300..1000;1,9..40,300..1000&display=swap');
 @import "tailwindcss";
 
 /* Root Theme Variables */
@@ -5,9 +6,9 @@
   --background: #ad6ac7;
   --foreground: #171717;
 
-  /* Next.js font variables will override these */
-  --font-heading: var(--font-heading);
-  --font-body: var(--font-body);
+  /* Next.js font variables with fallbacks from extracted fonts */
+  --font-heading: 'Sora', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
 }
 
 /* Tailwind Theme Mapping */
@@ -17,6 +18,12 @@
 
   --font-heading: var(--font-heading);
   --font-body: var(--font-body);
+  
+  /* Optional: Add specific font weight utilities if needed */
+  --font-weight-heading-800: 800;
+  --font-weight-heading-700: 700;
+  --font-weight-heading-600: 600;
+  --font-weight-heading-400: 400;
 }
 
 /* Force Absolute White Background */
@@ -31,6 +38,21 @@ body {
 /* Automatically Apply Heading Font */
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-heading);
+  font-weight: 700; /* Default bold for headings, can be overridden */
+}
+
+/* Specific heading overrides if needed */
+h1 {
+  font-weight: 800; /* Extra bold for main headings */
+}
+
+.logo, 
+.stat-card .num,
+.stat-item .val,
+.bas-card h3,
+.step-num {
+  font-family: var(--font-heading);
+  font-weight: 800; /* Extra bold for special elements */
 }
 
 /* Hide Scrollbar */

@@ -23,7 +23,7 @@ const Benefits = () => {
           {/* Content */}
           <div className=''>
             <h2 className="font-heading text-3xl md:text-4xl text-purple-700 mb-6 leading-tight tracking-tight">
-              Why Businesses Choose Ricilix
+              Why Businesses Choose OzGoat
             </h2>
 
             <div className="space-y-6">

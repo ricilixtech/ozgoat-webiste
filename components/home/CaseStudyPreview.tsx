@@ -43,7 +43,7 @@ const CaseStudyPreview = () => {
             </h3>
 
             <p className="text-neutral-600 mb-8 leading-relaxed">
-              RICILIX consolidated fragmented systems into a unified HubSpot CRM architecture,
+              OzGoat consolidated fragmented systems into a unified HubSpot CRM architecture,
               reducing manual workload by 75% and enabling full operational visibility.
             </p>
 

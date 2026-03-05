@@ -9,7 +9,7 @@ export default function EVCaseStudy() {
 
                 {/* Hero */}
                 <h1 className="text-4xl md:text-5xl tracking-tight text-center font-heading text-purple-800 mb-6 leading-tight">
-                    How <span className="font-bold">RICILIX</span> Transformed EV Charger Operations
+                    How <span className="font-bold">OzGoat</span> Transformed EV Charger Operations
                     with a Centralized <span className="font-bold">CRM</span> & Automation Ecosystem
                 </h1>
 
@@ -17,7 +17,7 @@ export default function EVCaseStudy() {
                 <p className="text-lg text-neutral-700 mb-12 leading-relaxed">
                     A fast-growing EV charger sales and installation company operating across
                     B2B, B2C, and B2B2C models faced operational inefficiencies caused by fragmented
-                    systems and disconnected data sources. RICILIX designed and implemented a
+                    systems and disconnected data sources. OzGoat designed and implemented a
                     structured, Six Sigma–aligned CRM and automation ecosystem that centralized
                     operations and enabled scalable growth.
                 </p>
@@ -64,7 +64,7 @@ export default function EVCaseStudy() {
                 </h2>
 
                 <p className="text-neutral-700 mb-6">
-                    RICILIX conducted a full system audit identifying three primary data sources:
+                    OzGoat conducted a full system audit identifying three primary data sources:
                 </p>
 
                 <ul className="list-disc pl-6 text-neutral-700 space-y-3 mb-8">
@@ -81,7 +81,7 @@ export default function EVCaseStudy() {
 
                 {/* Improve Phase */}
                 <h2 className="text-3xl leading-tight tracking-tight font-heading text-purple-800 mb-4">
-                    Improve Phase — RICILIX Solution
+                    Improve Phase — OzGoat Solution
                 </h2>
 
                 <div className="space-y-8 mb-12">
@@ -157,8 +157,8 @@ export default function EVCaseStudy() {
                         <thead className="bg-purple-100">
                             <tr>
                                 <th className="p-4 text-left">Metric</th>
-                                <th className="p-4 text-left">Before RICILIX</th>
-                                <th className="p-4 text-left">After RICILIX</th>
+                                <th className="p-4 text-left">Before OzGoat</th>
+                                <th className="p-4 text-left">After OzGoat</th>
                             </tr>
                         </thead>
                         <tbody className="text-neutral-700">
@@ -194,7 +194,7 @@ export default function EVCaseStudy() {
                 <p className="text-neutral-700 leading-relaxed mb-12">
                     This transformation moved the client from reactive manual operations
                     to a scalable, process-driven system aligned with modern EV infrastructure growth.
-                    RICILIX did not simply implement tools — it redesigned the operational data flow
+                    OzGoat did not simply implement tools — it redesigned the operational data flow
                     using Six Sigma principles, enabling confident expansion and improved customer experience.
                 </p>
 

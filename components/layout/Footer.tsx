@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="relative w-[200px] h-[70px] sm:w-[240px] sm:h-[80px] md:w-[280px] md:h-[90px] lg:w-[320px] lg:h-[100px]">
   <Image
     src="/pictures/HomePage/logo.png"
-    alt="Ricilix Logo"
+    alt="OzGoat Logo"
     fill
     className="object-contain"
   />
@@ -156,7 +156,7 @@ const Footer = () => {
         <div className="border-t border-neutral-800 pt-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
 
           <p className="text-sm text-neutral-400">
-            © 2026 <span className="font-semibold text-white">Ricilix</span>. All rights reserved.
+            © 2026 <span className="font-semibold text-white">OzGoat</span>. All rights reserved.
           </p>
 
           <div className="flex gap-6 mt-4 md:mt-0">

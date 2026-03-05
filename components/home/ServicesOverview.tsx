@@ -176,44 +176,44 @@ const ServicesOverview = () => {
             </div>
           </motion.div>
           {/* CARD 3 */}
-<motion.div
-  variants={slideUp}
-  className="w-full shadow-[0_-8px_20px_rgba(59,130,246,0.45)] rounded-xl"
->
-  <div className="bg-white border border-gray-300 p-6 sm:p-8 rounded-xl h-full flex flex-col justify-between">
+          <motion.div
+            variants={slideUp}
+            className="w-full shadow-[0_-8px_20px_rgba(59,130,246,0.45)] rounded-xl"
+          >
+            <div className="bg-white border border-gray-300 p-6 sm:p-8 rounded-xl h-full flex flex-col justify-between">
 
-    {/* Icon + Heading */}
-    <div>
-      <h3 className="text-blue-600 font-bold font-heading text-2xl mb-3">
-        <span className="text-2xl mb-4">📈</span> Scale
-      </h3>
+              {/* Icon + Heading */}
+              <div>
+                <h3 className="text-blue-600 font-bold font-heading text-2xl mb-3">
+                  <span className="text-2xl mb-4">📈</span> Scale
+                </h3>
 
-      <p className="text-neutral-500 text-sm mb-4">
-        We step in as your tech arm without full-time overheads: the right expertise, when you need it.
-      </p>
+                <p className="text-neutral-500 text-sm mb-4">
+                  We step in as your tech arm without full-time overheads: the right expertise, when you need it.
+                </p>
 
-      {/* Bullet Points */}
-      <ul className="text-gray-800 text-sm space-y-2 list-disc list-inside">
-        <li>Staff augmentation</li>
-        <li>Offshore delivery pods</li>
-        <li>Product & delivery support</li>
-        <li>Monitoring & improvements</li>
-      </ul>
-    </div>
+                {/* Bullet Points */}
+                <ul className="text-gray-800 text-sm space-y-2 list-disc list-inside">
+                  <li>Staff augmentation</li>
+                  <li>Offshore delivery pods</li>
+                  <li>Product & delivery support</li>
+                  <li>Monitoring & improvements</li>
+                </ul>
+              </div>
 
-    {/* Divider + Button */}
-    <div className="mt-6 pt-4 border-t border-gray-200">
-      <Link href="/services">
-        <button className="px-4 cursor-pointer text-black hover:text-gray-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
-          Explore Support →
-        </button>
-      </Link>
-    </div>
+              {/* Divider + Button */}
+              <div className="mt-6 pt-4 border-t border-gray-200">
+                <Link href="/services">
+                  <button className="px-4 cursor-pointer text-black hover:text-gray-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
+                    Explore Support →
+                  </button>
+                </Link>
+              </div>
 
-  </div>
-</motion.div>
+            </div>
+          </motion.div>
 
-{/*------------------------------------------------------ below section */}
+          {/*------------------------------------------------------ below section */}
 
         </motion.div>
       </div>
@@ -228,14 +228,14 @@ const ServicesOverview = () => {
           whileInView="visible"
           viewport={{ once: true, amount: 0.3 }}
         >
-          <div className="w-screen flex items-center justify-center">
-  <motion.div
-    variants={slideLeft}
-    className="font-heading rounded-2xl bg-gray-200 text-blue-500 font-medium text-sm px-6 py-1"
-  >
-    HOW WE WORK
-  </motion.div>
-</div>
+          <div className="flex justify-center">
+            <motion.div
+              variants={slideLeft}
+              className="font-heading rounded-2xl bg-gray-200 text-blue-500 font-medium text-sm px-6 py-1"
+            >
+              HOW WE WORK
+            </motion.div>
+          </div>
           <motion.h2
             variants={slideLeft}
             className="font-heading tracking-tight leading-tight text-4xl 2xl:text-5xl text-neutral-900 font-bold my-4"
@@ -271,15 +271,15 @@ const ServicesOverview = () => {
               {/* Icon + Heading */}
               <div>
                 <h3 className="text-black font-bold font-heading text-2xl mb-3">
-                  <a className="text-3xl mb-4">🧩</a> 
+                  <a className="text-3xl mb-4">🧩</a>
                   <div className="my-5">Managed Team</div>
                 </h3>
 
                 <p className="text-neutral-500 text-sm mb-4">
-                Your product, our dedicated team. From concept to completion, we handle it all: design, development, QA, and deployment.
+                  Your product, our dedicated team. From concept to completion, we handle it all: design, development, QA, and deployment.
                 </p>
 
-                
+
               </div>
 
               {/* Divider + Button */}
@@ -305,15 +305,15 @@ const ServicesOverview = () => {
               {/* Icon + Heading */}
               <div>
                 <h3 className="text-black font-bold font-heading text-2xl mb-3">
-                  <a className="text-3xl mb-4">🔌</a> 
+                  <a className="text-3xl mb-4">🔌</a>
                   <div className="my-5">Staff Augmentation</div>
                 </h3>
 
                 <p className="text-neutral-500 text-sm mb-4">
-                Need extra hands? Our experts seamlessly join your team, providing the skills you need, exactly when you need them.
+                  Need extra hands? Our experts seamlessly join your team, providing the skills you need, exactly when you need them.
                 </p>
 
-                
+
               </div>
 
               {/* Divider + Button */}
@@ -327,7 +327,7 @@ const ServicesOverview = () => {
 
             </div>
           </motion.div>
-          
+
           {/* CARD 3 */}
           <motion.div
             variants={slideUp}
@@ -338,15 +338,15 @@ const ServicesOverview = () => {
               {/* Icon + Heading */}
               <div>
                 <h3 className="text-black font-bold font-heading text-2xl mb-3">
-                  <a className="text-3xl mb-4">📋</a> 
+                  <a className="text-3xl mb-4">📋</a>
                   <div className="my-5">Fixed Cost</div>
                 </h3>
 
                 <p className="text-neutral-500 text-sm mb-4">
-                Upfront price or Hourly rates, guaranteed delivery. Your project completed on time and within budget: no surprises, ever.
+                  Upfront price or Hourly rates, guaranteed delivery. Your project completed on time and within budget: no surprises, ever.
                 </p>
 
-                
+
               </div>
 
               {/* Divider + Button */}

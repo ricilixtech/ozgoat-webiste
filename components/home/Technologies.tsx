@@ -134,8 +134,8 @@ const Technologies = () => {
                 powerful <span className="font-semibold text-blue-600">AI frameworks</span>,
                 advanced <span className="font-semibold text-blue-600">automation platforms</span>,
                 and secure <span className="font-semibold text-blue-600">cloud infrastructure</span>
-                to design <span className="font-bold text-blue-600">intelligent, scalable systems</span>
-                that solve real business problems and accelerate sustainable growth.
+                to design <span className="font-bold text-blue-600">intelligent, scalable systems </span>
+                 that solve real business problems and accelerate sustainable growth.
               </p>
             </div>
           </div>

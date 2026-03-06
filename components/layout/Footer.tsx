@@ -11,7 +11,7 @@ const Footer = () => {
         <div className="relative w-[200px] h-[70px] sm:w-[240px] sm:h-[80px] md:w-[280px] md:h-[90px] lg:w-[320px] lg:h-[100px]">
   <Image
     src="/pictures/HomePage/logo.png"
-    alt="OzGoat Logo"
+    alt="OZGOAT Logo"
     fill
     className="object-contain"
   />
@@ -23,18 +23,19 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-10 text-center md:text-left">
 
           {/* Company Intro */}
-          <div className="text">
-            <h1 className="text-orange-500">OZ<span className="text-blue-500">
+          <div className="text px-5">
+            <div className="justify-senter items-center text-center">
+            <h1 className="text-orange-500 pb-4">OZ<span className="text-blue-500">
                 GOAT
-              </span>{" "}</h1>
-            <p className="text-neutral-400 text-sm leading-relaxed">
+              </span>{" "}</h1></div>
+            <p className="text-neutral-300 text-sm leading-relaxed">
             Strategy-led software development. We help businesses Build, Automate, and Scale using technology that actually works. Melbourne, Australia. Est. 2022.
             </p>
           </div>
 
           {/* Solutions */}
           <div>
-            <h4 className="font-heading text-white font-semibold mb-4">
+            <h4 className="font-heading text-orange-500 font-semibold mb-4">
               Solutions
             </h4>
 
@@ -73,7 +74,7 @@ const Footer = () => {
 
           {/* Company */}
           <div>
-            <h4 className="font-heading text-white font-semibold mb-4">
+            <h4 className="font-heading text-orange-500 font-semibold mb-4">
               Company
             </h4>
 
@@ -106,7 +107,7 @@ const Footer = () => {
 
           {/* Social Media */}
           <div>
-            <h4 className="font-heading text-white font-semibold mb-4">
+            <h4 className="font-heading text-orange-500 font-semibold mb-4">
               Connect
             </h4>
 
@@ -152,7 +153,7 @@ const Footer = () => {
         <div className="border-t border-neutral-800 pt-8 flex flex-col md:flex-row justify-between items-center text-center md:text-left">
 
           <p className="text-sm text-neutral-400">
-            © 2026 <span className="font-semibold text-white">OzGoat</span>. All rights reserved.
+            © 2026 <span className="font-semibold text-white">OZGOAT</span>. All rights reserved.
           </p>
 
           <div className="flex gap-6 mt-4 md:mt-0">

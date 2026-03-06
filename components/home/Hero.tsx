@@ -111,7 +111,9 @@ const Hero = () => {
 
               {/* LinkedIn Button */}
               <a
-                href="/"
+                href="https://www.linkedin.com/company/ozgoat/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 mt-3 bg-[#0A66C2] hover:bg-[#004182] text-white text-sm font-bold px-4 py-2 rounded-md transition"
               >
                 <Linkedin size={18} className="bg-white text-[#0A66C2] rounded-sm p-[2px]" />

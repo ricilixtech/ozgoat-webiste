@@ -66,6 +66,7 @@ const Navbar = () => {
             label: 'Services',
             submenu: [
                 { href: '/services/web-development', label: 'Web Development' },
+                { href: '/services/mobile-app', label: 'Mobile-App Development' },
                 { href: '/services/crm-integration', label: 'CRM integration' },
                 { href: '/services/automation', label: 'Automation Solutions' },
             ],

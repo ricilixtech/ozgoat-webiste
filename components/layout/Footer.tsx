@@ -23,16 +23,12 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-10 text-center md:text-left">
 
           {/* Company Intro */}
-          <div>
+          <div className="text">
+            <h1 className="text-orange-500">OZ<span className="text-blue-500">
+                GOAT
+              </span>{" "}</h1>
             <p className="text-neutral-400 text-sm leading-relaxed">
-              Transforming businesses through{" "}
-              <span className="font-semibold text-white">
-                intelligent automation
-              </span>{" "}
-              and{" "}
-              <span className="font-semibold text-white">
-                AI-driven solutions
-              </span>.
+            Strategy-led software development. We help businesses Build, Automate, and Scale using technology that actually works. Melbourne, Australia. Est. 2022.
             </p>
           </div>
 

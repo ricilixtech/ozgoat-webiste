@@ -66,20 +66,13 @@ const Navbar = () => {
             label: 'Services',
             submenu: [
                 { href: '/services/web-development', label: 'Web Development' },
-                { href: '/services/app-development', label: 'App Development' },
+                { href: '/services/crm-integration', label: 'CRM integration' },
                 { href: '/services/automation', label: 'Automation Solutions' },
             ],
         },
-        {
-            label: 'Industries',
-            submenu: [
-                { href: '/industries/healthcare', label: 'Healthcare' },
-                { href: '/industries/fintech', label: 'Fintech' },
-                { href: '/industries/ecommerce', label: 'E-Commerce' },
-            ],
-        },
-        { href: '/technologies', label: 'Technologies' },
-        { href: '/portfolio', label: 'Portfolio' },
+      
+        { href: '/contact', label: 'Contact' },
+        { href: '/portfolio', label: 'Blog' },
     ];
 
     const handleDropdownClick = (label: string) => {

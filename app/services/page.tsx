@@ -6,6 +6,7 @@ import CustomWorkflows from '@/components/services/CustomWorkflows';
 import AIIntegration from '@/components/services/AIIntegration';
 import ServicesCTA from '@/components/services/ServicesCTA';
 import Delivery from '@/components/services/Delivery';
+import TrustSection from '@/components/home/TrustSection';
 
 export default function ServicesPage() {
   return (
@@ -17,7 +18,7 @@ export default function ServicesPage() {
       <CustomWorkflows />
       <AIIntegration />
       <Delivery/>
-      
+      <TrustSection/>
     </>
   );
 }

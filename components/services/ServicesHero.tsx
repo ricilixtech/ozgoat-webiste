@@ -1,15 +1,59 @@
+import Link from "next/link";
+import Servicesoverview from "./Servicesoverview";
 const ServicesHero = () => {
     return (
-      <section className="py-16 md:py-24 bg-gradient-to-br from-blue-50 to-purple-50">
+      <section className="pt-16 md:pt-24 bg-gradient-to-r from-black via-blue-950 to-black">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="font-heading text-4xl md:text-5xl leading-tight tracking-tight text-purple-800 mb-6">
-            Solutions That Drive Real Business Results
+        <div
+            className="font-heading t py-2 justify-between item-center text-center text-sm text-blue-400 font-medium mb-4"
+          ><a className="rounded-2xl px-3 py-2 bg-blue-950">
+              🛠 Strategy First. Build Second.</a>
+          </div>
+        
+          <h1 className="font-heading text-4xl md:text-5xl leading-tight tracking-tight text-white mb-6">
+          Three Ways We Help You <span className="text-blue-400">Win With Technology </span>
           </h1>
-          <p className="text-lg md:text-xl text-neutral-600 max-w-3xl mx-auto">
-            We don't just implement technology—we transform how your business operates, 
-            helping you scale faster and work smarter.
+          <p className="text-lg md:text-xl text-neutral-400 max-w-3xl mx-auto">
+          Whether you need something built, your operations automated, or a reliable tech team to scale with — OZGOAT delivers outcomes, not just output.
           </p>
+          <div className="text-center mt-12">
+          <Link
+            href="/contact"
+            className="inline-block bg-blue-600 text-white px-6 mx-4 py-3 rounded-lg font-semivold hover:bg-blue-700 transition"
+          >
+            Book a Free Discovery Call →
+          </Link>
+          <Link
+            href="/portfolio"
+            className="inline-block  text-white px-6 py-3 mx-4 rounded-lg font-semivold border border-neutral-600 hover:border-neutral-400 transition"
+          >
+            See Our Work
+          </Link>
         </div>
+        
+        </div>
+                  {/* ===== STATS BOXES ===== */}
+                  <div className="bg-blue-600 text-white mt-10 py-8 xl:mt-12">
+            <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-6 text-center">
+                {[
+                  { number: "45+", label: "Skilled Experts" },
+                  { number: "120+", label: "Projects" },
+                  { number: "50+", label: "Technologies" },
+                  { number: "20+", label: "Years Experience" },
+                  { number: "4.9+", label: "Ratings / Reviews" },
+                  { number: "4", label: "Development Centers" },
+                  { number: "2", label: "Global Awards" },
+                ].map((stat, idx) => (
+                  <div key={idx} className="border border-white rounded-lg p-4 flex flex-col items-center justify-center">
+                    <span className="text-3xl md:text-4xl font-bold">{stat.number}</span>
+                    <span className="text-sm md:text-base mt-1">{stat.label}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+          <Servicesoverview/>
       </section>
     );
   };

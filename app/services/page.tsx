@@ -5,6 +5,7 @@ import WebsiteSolutions from '@/components/services/WebsiteSolutions';
 import CustomWorkflows from '@/components/services/CustomWorkflows';
 import AIIntegration from '@/components/services/AIIntegration';
 import ServicesCTA from '@/components/services/ServicesCTA';
+import Delivery from '@/components/services/Delivery';
 
 export default function ServicesPage() {
   return (
@@ -15,7 +16,8 @@ export default function ServicesPage() {
       <WebsiteSolutions />
       <CustomWorkflows />
       <AIIntegration />
-      <ServicesCTA />
+      <Delivery/>
+      
     </>
   );
 }

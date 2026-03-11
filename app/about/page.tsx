@@ -1,17 +1,19 @@
-import Mission from '@/components/about/Mission';
 import VisionPhilosophy from '@/components/about/VisionPhilosophy';
 import Founders from '@/components/about/Founders';
-import Values from '@/components/about/Values';
-import WhyDifferent from '@/components/about/WhyDifferent';
+import AboutHero from '@/components/about/AboutHero';
+import TrustSection from '@/components/home/TrustSection';
+import CTASection from '@/components/home/CTASection';
 
 export default function AboutPage() {
   return (
     <>
-      <Mission />
-      <Founders />
+      <AboutHero/>
       <VisionPhilosophy />
-      <Values />
-      <WhyDifferent />
+      <Founders />
+      {/* <Values />
+      <WhyDifferent /> */}
+      <TrustSection/>
+      <CTASection/>
     </>
   );
 }

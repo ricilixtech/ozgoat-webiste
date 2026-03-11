@@ -57,7 +57,7 @@ const slideUp: Variants = {
 
 const Servicesoverview = () => {
   return (
-    <section className="py-16 md:py-20 bg-gray-100">
+    <section className="py-12 md:py-14 bg-gray-100">
 
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -79,28 +79,18 @@ const Servicesoverview = () => {
             variants={slideLeft}
             className="font-heading tracking-tight leading-tight text-4xl 2xl:text-5xl text-neutral-900 font-bold mb-4"
           >
-            Build. Automate. <span className="text-blue-600 "> Scale.</span>{" "}
+            BUILD, Automate & <span className="text-blue-600 "> Scale your Business</span>{" "}
           </motion.h2>
 
           <motion.p
             variants={slideLeft}
             className="text-lg text-neutral-600 max-w-2xl mx-auto"
           >
-            Clear, focused services — no jargon, no bloated service lists. Just three things done exceptionally well.
+           Smart Web Development, Custom Software, and CRM Automation tailored for Aussie SMEs. We build the tech so you can focus on growing your business without the overhead.
           </motion.p>
         </motion.div>
 
         {/* ================= CARDS SECTION ================= */}
-        <motion.div
-          className="grid md:grid-cols-3 gap-8"
-          variants={cardContainer}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true, amount: 0.2 }}
-        >
-
-         
-          </motion.div>
       </div>
     </section>
   );

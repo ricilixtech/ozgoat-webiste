@@ -4,49 +4,49 @@ const SoftwareDevelopment = () => {
   const services = [
     {
       title: "Custom Software Development",
-      desc: "Build scalable software solutions designed specifically for your business processes.",
+      desc: "Get a competitive edge with tailor-made software solutions designed for your specific business processes. We build apps that solve your unique challenges and grow as you do.",
     },
     {
       title: "Enterprise Software",
-      desc: "Develop robust enterprise-grade systems that streamline operations and improve efficiency.",
+      desc: "Scale your operations with robust enterprise-grade systems. We streamline complex workflows and improve cross-department efficiency for growing Australian SMEs.",
     },
     {
       title: "Cloud-Based Applications",
-      desc: "Create secure and scalable cloud applications accessible anytime and anywhere.",
+      desc: "Access your business anywhere with secure cloud solutions. We create scalable cloud applications that offer high availability, top-tier security, and seamless remote access.",
     },
     {
       title: "Software Modernization",
-      desc: "Upgrade legacy systems with modern technologies to improve performance and security.",
+      desc: "Dont let old tech hold you back. We upgrade legacy systems with modern technologies to boost performance, tighten security, and reduce maintenance costs.",
     },
     {
       title: "System Architecture Design",
-      desc: "Design reliable and scalable software architectures for long-term growth.",
+      desc: "Future-proof your business with scalable system architecture. We design reliable frameworks that support long-term growth and handle high traffic without a hitch.",
     },
     {
       title: "Maintenance & Support",
-      desc: "Ensure your software runs smoothly with ongoing monitoring, updates, and support.",
+      desc: "Keep your software running perfectly with 24/7 ongoing support. From monitoring to regular updates, we ensure your tech stays fast, secure, and bug-free.",
     },
   ];
 
   return (
-    <section id="software" className="scroll-mt-24 py-16 px-4 md:px-10 md:py-20 bg-white">
+    <section id="software" className="scroll-mt-24 py-8 xl:py-12 px-4 md:px-10 md:py-10 bg-white">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div className="font-heading text-blue-600 text-5xl font-extrabold mb-6">
-          Software Development
+        <div className="font-heading text-blue-600 text-4xl xl:text-5xl font-extrabold mb-6">
+        Custom Software Development Australia
         </div>
 
-        <div className="md:w-1/3 mb-12">
+        <div className="md:w-2/3 xl:w-1/2 mb-12">
           <p className="text-neutral-600">
-            We build powerful, scalable software solutions tailored to your business goals and operational needs.
+          Build powerful, scalable software solutions tailored to your unique business goals. From Brisbane to Perth, we help Aussie companies modernize their tech stack with secure, high-performing applications that drive real results.
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-6 xl:gap-8">
           {services.map((item, index) => (
-            <div key={index} className="p-6 border rounded-lg border-gray-300 bg-gray-100 shadow-[-8px_0_12px_-2px_rgba(37,99,235,0.6)]">
+            <div key={index} className="p-4 xl:p-6 border rounded-lg border-gray-300 bg-gray-100 shadow-[-8px_0_12px_-2px_rgba(37,99,235,0.6)]">
               <h3 className="text-xl font-semibold mb-2 text-gray-900">{item.title}</h3>
-              <p className="text-neutral-600">{item.desc}</p>
+              <p className="text-neutral-600 text-[12px] xl:text-[15px]">{item.desc}</p>
             </div>
           ))}
         </div>

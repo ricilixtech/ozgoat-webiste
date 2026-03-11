@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const CTASection = () => {
   return (
-    <section className="relative pt-20 overflow-hidden bg-blue-600">
+    <section className="relative pt-10 overflow-hidden bg-blue-600">
 
       {/* Decorative Blur Circles */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-blue-300 opacity-20 rounded-full blur-3xl"></div>

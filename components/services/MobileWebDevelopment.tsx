@@ -4,49 +4,49 @@ const MobileWebDevelopment = () => {
   const services = [
     {
       title: "Custom Web Applications",
-      desc: "Develop high-performance web applications tailored to your business requirements.",
+      desc: "Scale your business with high-performance web apps built for your specific requirements. We focus on speed, security, and a flawless user experience.",
     },
     {
       title: "Mobile App Development",
-      desc: "Build powerful mobile apps for iOS and Android with modern frameworks.",
+      desc: "Build powerful native or cross-platform mobile apps for iOS and Android. We use modern frameworks to ensure your app is fast, reliable, and user-friendly.",
     },
     {
       title: "Progressive Web Apps",
-      desc: "Create web apps that deliver app-like experiences across all devices.",
+      desc: "Combine the best of web and mobile. We create PWAs that deliver an app-like experience on any device, even with slow internet—perfect for on-the-go Aussie users.",
     },
     {
       title: "Frontend Development",
-      desc: "Build modern responsive interfaces using React, Next.js, and modern UI frameworks.",
+      desc: "Stunning, responsive interfaces that captivate your audience. We use React and Next.js to build modern UIs that look great on everything from iPhones to desktops.",
     },
     {
       title: "Backend Development",
-      desc: "Develop secure and scalable APIs and backend systems for your applications.",
+      desc: "The powerhouse behind your app. We develop secure, scalable APIs and robust backend systems that handle your data and business logic without a hitch.",
     },
     {
       title: "Full Stack Development",
-      desc: "End-to-end development from UI to database ensuring seamless application performance.",
+      desc: "End-to-end solutions from UI design to database management. Our full-stack experts ensure every part of your application works together perfectly.",
     },
   ];
 
   return (
-    <section id="apps" className="scroll-mt-24 py-16 px-4 md:px-10 md:py-20 bg-white">
+    <section id="apps" className="scroll-mt-24 py-8 xl:py-12 px-4 md:px-10 md:py-10 bg-white">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        <div className="font-heading text-blue-600 text-5xl font-extrabold mb-6">
-          Mobile & Web App Development
+        <div className="font-heading text-blue-600 text-4xl xl:text-5xl font-extrabold mb-6">
+        High-Performance Mobile & Web App Development
         </div>
 
-        <div className="md:w-1/3 mb-12">
+        <div className="md:w-2/3 xl:w-1/2 mb-12">
           <p className="text-neutral-600">
-            We create high-quality web and mobile applications that deliver seamless user experiences and scalable performance.
+          Deliver seamless user experiences with scalable web and mobile applications. From custom portals to high-traffic apps, we build tech that helps Aussie SMEs compete on a global scale.
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
           {services.map((item, index) => (
-            <div key={index} className="p-6 border rounded-lg border-gray-300 bg-gray-100 shadow-[-8px_0_12px_-2px_rgba(37,99,235,0.6)]">
+            <div key={index} className="p-4 xl:p-6 border rounded-lg border-gray-300 bg-gray-100 shadow-[-8px_0_12px_-2px_rgba(37,99,235,0.6)]">
               <h3 className="text-xl font-semibold mb-2 text-gray-900">{item.title}</h3>
-              <p className="text-neutral-600">{item.desc}</p>
+              <p className="text-neutral-600 text-[12px] xl:text-[15px]">{item.desc}</p>
             </div>
           ))}
         </div>

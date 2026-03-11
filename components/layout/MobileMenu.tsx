@@ -1,5 +1,5 @@
 'use client';
-
+import { Linkedin } from "lucide-react";
 import { useEffect, useState, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
@@ -91,9 +91,8 @@ const MobileMenu = ({ isOpen, onClose, navLinks }: MobileMenuProps) => {
                 <div key={link.label}>
                   {/* Main Link / Parent */}
                   <div
-                    className={`flex justify-between items-center font-medium text-lg cursor-pointer transition ${
-                      isActive ? 'text-blue-600 font-bold' : 'text-black hover:text-blue-400'
-                    }`}
+                    className={`flex justify-between items-center font-medium text-lg cursor-pointer transition ${isActive ? 'text-blue-600 font-bold' : 'text-black hover:text-blue-400'
+                      }`}
                     onClick={() => {
                       if (hasSubmenu) {
                         setOpenSubmenu(openSubmenu === link.label ? null : link.label);
@@ -137,11 +136,16 @@ const MobileMenu = ({ isOpen, onClose, navLinks }: MobileMenuProps) => {
 
             {/* CTA */}
             <button
-              onClick={() => { router.push('/contact'); setOpenSubmenu(null); onClose(); }}
-              className="w-full bg-blue-600 font-bold text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition cursor-pointer mt-6"
-            >
-              Get a Quote
-            </button>
+  onClick={() => {
+    window.open("https://www.linkedin.com/company/ozgoat/", "_blank");
+    setOpenSubmenu(null);
+    onClose();
+  }}
+  className="w-full flex items-center justify-center gap-2 bg-[#0A66C2] font-bold text-white px-6 py-2 rounded-lg hover:bg-[#004182] transition cursor-pointer mt-6"
+>
+  <Linkedin size={18} className="bg-white text-[#0A66C2] rounded-sm p-[2px]" />
+  LinkedIn
+</button>
           </div>
         </div>
       </div>

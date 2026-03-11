@@ -19,13 +19,13 @@ const ServicesHero = () => {
           <div className="text-center mt-12">
           <Link
             href="/contact"
-            className="inline-block bg-blue-600 text-white px-6 mx-4 py-3 rounded-lg font-semivold hover:bg-blue-700 transition"
+            className="inline-block mt-2 bg-blue-600 text-white px-6 mx-4 py-3 rounded-lg font-semivold hover:bg-blue-700 transition"
           >
             Book a Free Discovery Call →
           </Link>
           <Link
             href="/portfolio"
-            className="inline-block  text-white px-6 py-3 mx-4 rounded-lg font-semivold border border-neutral-600 hover:border-neutral-400 transition"
+            className="inline-block mt-2 text-white px-6 py-3 mx-4 rounded-lg font-semivold border border-neutral-600 hover:border-neutral-400 transition"
           >
             See Our Work
           </Link>

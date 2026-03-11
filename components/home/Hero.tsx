@@ -69,7 +69,7 @@ const Hero = () => {
             </motion.p>
             <motion.div variants={slideInLeft} className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <button className="bg-blue-600 font-bold text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition shadow-custom">
+                <button className="bg-blue-600  font-bold text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition shadow-custom">
                   Book a Free Consultation
                 </button>
               </Link>

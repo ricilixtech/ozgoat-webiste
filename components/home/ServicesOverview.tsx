@@ -364,7 +364,7 @@ const ServicesOverview = () => {
         <div className="flex justify-center mt-12">
             <Link href="/contact">
               <button className="bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-lg transition duration-300">
-                Book An Introductry Call →
+                Book An Discovery Call →
               </button>
             </Link>
           </div>

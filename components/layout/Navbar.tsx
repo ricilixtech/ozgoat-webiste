@@ -7,6 +7,8 @@ import { usePathname, useRouter } from 'next/navigation';
 import { Space_Grotesk } from "next/font/google";
 import MobileMenu from './MobileMenu';
 
+import { Linkedin } from "lucide-react";
+
 const spaceGrotesk = Space_Grotesk({
     subsets: ["latin"],
     weight: ["400", "600", "700"],
@@ -92,7 +94,7 @@ const Navbar = () => {
         <>
             <div
                 ref={navRef}
-                className={`sticky top-0 z-50 shadow-[8px_8px_20px_rgba(59,130,246,0.35)]
+                className={`sticky top-0 z-50 font-body shadow-[8px_8px_20px_rgba(59,130,246,0.35)]
         transition-transform duration-300
         ${showNavbar ? "translate-y-0" : "-translate-y-28"}`}
             >
@@ -129,7 +131,7 @@ const Navbar = () => {
                                                 </button>
 
                                                 {openDropdown === link.label && (
-                                                    <div className="absolute left-0 top-10 w-56 bg-white border rounded-lg shadow-lg py-2">
+                                                    <div className="absolute font-body left-0 top-10 w-56 bg-white border rounded-lg shadow-lg py-2">
                                                         {link.submenu.map(sub => {
                                                             const hash = typeof window !== "undefined" ? window.location.hash : "";
                                                             const isActive = sub.href.includes(hash);
@@ -146,7 +148,7 @@ const Navbar = () => {
                                                                 <Link
                                                                     key={sub.href}
                                                                     href={sub.href}
-                                                                    className={`block px-4 py-2 hover:bg-blue-50 ${textColor}`}
+                                                                    className={`font-body block px-4 py-2 hover:bg-blue-50 ${textColor}`}
                                                                     onClick={() => setOpenDropdown(null)}
                                                                 >
                                                                     {sub.label}
@@ -174,14 +176,18 @@ const Navbar = () => {
                                 })}
                             </div>
 
-                            <div className="hidden md:flex">
-                                <button
-                                    onClick={() => router.push('/contact')}
-                                    className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700"
-                                >
-                                    Contact Us
-                                </button>
-                            </div>
+                            
+                                    {/* LinkedIn Button */}
+                                    <a
+                                        href="https://www.linkedin.com/company/ozgoat/"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="inline-flex items-center gap-2 bg-[#0A66C2] hover:bg-[#004182] text-white text-sm font-bold px-4 py-2 rounded-md transition"
+                                    >
+                                        <Linkedin size={18} className="bg-white text-[#0A66C2] rounded-sm p-[2px]" />
+                                        Follow on LinkedIn
+                                    </a>
+                               
 
                             <button
                                 className="md:hidden text-2xl"

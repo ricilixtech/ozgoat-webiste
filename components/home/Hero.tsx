@@ -49,17 +49,17 @@ const Hero = () => {
         <div className="grid md:grid-cols-2 gap-10 xl:gap-16 2xl:gap-24 items-center py-6 px-4 sm:px-6 lg:px-8 xl:px-16 2xl:px-20">
           {/* ================= TEXT SECTION ================= */}
           <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true, amount: 0.3 }}>
-            <motion.h1
+            <motion.div
               variants={slideInLeft}
               className="tracking-tight leading-tight font-heading text-white mb-2"
             >
-              <div className="inline-flex items-center text-blue-200 border border-gray-700 rounded-4xl px-3 py-2">
+              <div className="inline-flex text-[12px] xl:text-[15px] items-center text-blue-200 border border-gray-700 rounded-4xl px-3 py-2">
                 <span className="mr-1 font-bold bg-blue-700 border border-blue-700 rounded-3xl px-2 text-white">
                   NEW
                 </span>
                 Value Driven, AI-Focused Development Company
               </div>
-            </motion.h1>
+            </motion.div>
             <motion.h1 variants={slideInLeft} className="tracking-tight font-bold leading-tight font-heading text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl text-white mb-2">
               RELIABLE SUSTAINABLE AFFORDABLE
               <p className="text-blue-500">Digital Solutions </p> in Australia

@@ -76,7 +76,7 @@ const Navbar = () => {
         { href: '/about', label: 'About' },
 
         { href: '/contact', label: 'Contact' },
-        { href: '/portfolio', label: 'Blog' },
+        { href: '/blog', label: 'Blog' },
     ];
 
     const handleDropdownClick = (label: string) => {

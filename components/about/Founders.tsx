@@ -20,7 +20,7 @@ const Founders = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-4 gap-8 max-w-7xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
 
           {/* Imran Shaukat */}
           <div className="bg-white p-8 rounded-2xl shadow-lg text-center flex flex-col min-h-[420px]">
@@ -132,41 +132,7 @@ const Founders = () => {
             </div>
           </div>
 
-          {/* Sharjeel */}
-          <div className="bg-white p-8 rounded-2xl shadow-lg text-center flex flex-col min-h-[420px]">
-            <div className="relative w-32 h-32 mx-auto mb-6 rounded-full overflow-hidden">
-              <Image
-                src="/pictures/sharjeel.png"
-                alt="Sharjeel"
-                fill
-                className="object-cover"
-              />
-            </div>
-
-            <h3 className="font-heading text-xl text-neutral-900 mb-2">
-              Sharjeel
-            </h3>
-
-            <p className="text-blue-600 mb-4 font-medium">
-              Marketing & SEO Strategist
-            </p>
-
-            <p className="text-neutral-600">
-              Drives brand growth through digital marketing, search engine optimization, and data-driven acquisition strategies.
-            </p>
-
-            <div className="mt-auto pt-4">
-              <a
-                href="https://www.linkedin.com/company/ozgoat/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[#0A66C2] text-[12px] 2xl:text-[14px] hover:bg-[#004182] text-white font-bold px-3 py-2 rounded-md transition"
-              >
-                <Linkedin size={18} className="bg-white text-[#0A66C2] rounded-sm p-[2px]" />
-                View LinkedIn Profile
-              </a>
-            </div>
-          </div>
+          
 
         </div>
       </div>

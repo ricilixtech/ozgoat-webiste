@@ -1,5 +1,6 @@
+"use client"
 import ContactDetail from "./ContactDetail";
-
+import Link from "next/link";
 const ContactInfo = () => {
     return (
       <div>
@@ -16,7 +17,7 @@ const ContactInfo = () => {
             </div>
             <div>
               <h3 className="font-heading text-lg text-neutral-900 mb-1">Email</h3>
-              <p className="text-neutral-600">ricilixtech@gmail.com</p>
+              <p className="text-neutral-600">ozgoat@gmail.com</p>
             </div>
           </div>
           
@@ -35,16 +36,20 @@ const ContactInfo = () => {
           </div>
         </div>
         
-        <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-large">
-          <h3 className="font-heading tracking-tight leading-tight text-xl text-purple-800 mb-4">
-            Book a Free Consultation
+        <div className="bg-blue-100 rounded-lg">
+          <div className="px-3 py-5 text-center">
+          <h3 className="font-heading tracking-tight font-extrabold leading-tight text-xl text-blue-700 mb-4">
+            BOOK A FREE CONSULTATION
           </h3>
           <p className="text-neutral-600 mb-6">
             Schedule a 30-minute call with our team to discuss your business challenges and explore solutions.
           </p>
-          <button className="w-full bg-purple-700 text-white px-6 py-3 rounded-lg hover:bg-purple-800 transition shadow-custom font-medium">
-            Schedule Now
-          </button>
+          <Link href="https://meet.ozgoat.com">
+              <button className="bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-lg transition duration-300">
+                Book A Discovery Call →
+              </button>
+            </Link>
+          </div>
         </div>
         <ContactDetail/>
       </div>

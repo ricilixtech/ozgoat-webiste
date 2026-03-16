@@ -100,7 +100,7 @@ const ContactForm = () => {
 
   return (
     <div>
-      <h2 className="text-center font-bold tracking-tight leading-tight font-heading text-2xl md:text-3xl text-purple-700 mb-6">
+      <h2 className="text-center font-bold tracking-tight leading-tight font-heading text-2xl md:text-3xl text-blue-700 mb-6">
         Send Us a Message
       </h2>
 
@@ -127,74 +127,74 @@ const ContactForm = () => {
 
             {/* NAME */}
             <div>
-              <label className="block text-purple-700 mb-2">Full Name</label>
+              <label className="block text-blue-700 mb-2">Full Name</label>
               <input
                 type="text"
                 name="name"
                 required
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:outline-none focus:border-purple-600 transition"
+                className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:outline-none focus:border-blue-600 transition"
                 placeholder="John Doe"
               />
             </div>
 
             {/* EMAIL */}
             <div>
-              <label className="block text-purple-700 mb-2">Email Address</label>
+              <label className="block text-blue-700 mb-2">Email Address</label>
               <input
                 type="email"
                 name="email"
                 required
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:outline-none focus:border-purple-600 transition"
+                className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:outline-none focus:border-blue-600 transition"
                 placeholder="john@company.com"
               />
             </div>
 
             {/* PHONE */}
             <div>
-              <label className="block text-purple-700 mb-2">Phone Number</label>
+              <label className="block text-blue-700 mb-2">Phone Number</label>
               <input
                 type="text"
                 name="phone"
                 required
                 value={formData.phone}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:outline-none focus:border-purple-600 transition"
-                placeholder="+92 310 4737764"
+                className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:outline-none focus:border-blue-600 transition"
+                placeholder="+61 310473774"
               />
             </div>
 
             {/* COMPANY */}
             <div>
-              <label className="block text-purple-700 mb-2">Company Name</label>
+              <label className="block text-blue-700 mb-2">Company Name</label>
               <input
                 type="text"
                 name="company"
                 value={formData.company}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:outline-none focus:border-purple-600 transition"
+                className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:outline-none focus:border-blue-600 transition"
                 placeholder="Your Company"
               />
             </div>
 
             {/* SERVICE */}
             <div>
-              <label className="block text-purple-700 mb-2">
+              <label className="block text-blue-700 mb-2">
                 What can we help you with?
               </label>
               <select
                 name="service"
                 value={formData.service}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:outline-none focus:border-purple-600 transition"
+                className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:outline-none focus:border-blue-600 transition"
               >
                 <option>Business Automation</option>
                 <option>CRM Implementation</option>
                 <option>Website Development</option>
-                <option>Custom Workflows</option>
+                <option>App Development</option>
                 <option>AI Integration</option>
                 <option>General Inquiry</option>
                 <option>Others</option>
@@ -203,14 +203,14 @@ const ContactForm = () => {
 
             {/* MESSAGE */}
             <div>
-              <label className="block text-purple-700 mb-2">Message</label>
+              <label className="block text-blue-700 mb-2">Message</label>
               <textarea
                 name="message"
                 rows={5}
                 required
                 value={formData.message}
                 onChange={handleChange}
-                className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:outline-none focus:border-purple-600 transition"
+                className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:outline-none focus:border-blue-600 transition"
                 placeholder="Tell us about your project..."
               />
             </div>
@@ -218,7 +218,7 @@ const ContactForm = () => {
             <button
               type="submit"
               disabled={loading}
-              className="w-full bg-purple-600 text-white px-6 py-3 rounded-lg hover:bg-purple-700 transition shadow-md font-medium disabled:opacity-60"
+              className="w-full bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition shadow-md font-medium disabled:opacity-60"
             >
               {loading ? "Sending..." : "Send Message"}
             </button>

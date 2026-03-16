@@ -135,7 +135,7 @@ const TrustSection = () => {
           ))}
         </div>
         <div className="mt-10 flex flex-wrap justify-center gap-4">
-          {["SIMPLE", "AFFORDABLE", "ACCESSIBLE", "SECURE", "SCALEABLE"].map((item, index) => (
+          {["RELIABLE", "AFFORDABLE", "SUSTAINABLE"].map((item, index) => (
             <div
               key={index}
               className="px-4 py-2 bg-gray-900 text-gray-400 font-bold rounded-lg text-sm border border-gray-800"

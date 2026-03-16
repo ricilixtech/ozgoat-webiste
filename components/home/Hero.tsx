@@ -61,15 +61,15 @@ const Hero = () => {
               </div>
             </motion.div>
             <motion.h1 variants={slideInLeft} className="tracking-tight font-bold leading-tight font-heading text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl text-white mb-2">
-              RELIABLE SUSTAINABLE AFFORDABLE
+              RELIABLE. SUSTAINABLE. AFFORDABLE
               <p className="text-blue-500">Digital Solutions </p> in Australia
             </motion.h1>
             <motion.p variants={slideInLeft} className="text-base font-vody md:text-lg xl:text-xl 2xl:w-3/5 text-neutral-400 mb-8">
               Smart Web & Software Development designed to win you more customers. We simplify your CRM Integration and Automation Services so your business stays productive and delivers results without the extra effort.
             </motion.p>
             <motion.div variants={slideInLeft} className="flex flex-col sm:flex-row gap-4">
-              <Link href="/contact">
-                <button className="bg-blue-600  font-bold text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition shadow-custom">
+              <Link href="https://meet.ozgoat.com">
+                <button className="bg-blue-600 cursor-pointer font-bold text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition shadow-custom">
                   Book a Free Consultation
                 </button>
               </Link>

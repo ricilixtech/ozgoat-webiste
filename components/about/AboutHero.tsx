@@ -17,7 +17,7 @@ const AboutHero = () => {
           </p>
           <div className="text-center mt-12">
           <Link
-            href="/contact"
+            href="https://meet.ozgoat.com"
             className="inline-block bg-blue-600 text-white px-6 mx-4 py-3 rounded-lg font-semivold hover:bg-blue-700 transition"
           >
             Book a Free Discovery Call →

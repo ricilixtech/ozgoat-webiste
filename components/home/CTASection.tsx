@@ -22,7 +22,7 @@ const CTASection = () => {
           At OZGOAT, we act as your technology arm: building solutions that automate, optimise and accelerate growth.
           </p>
 
-          <Link href="/contact">
+          <Link href="https://meet.ozgoat.com">
             <button className="group bg-white text-blue-600 font-semibold px-10 py-4 rounded-xl shadow-lg transition duration-300 hover:shadow-2xl hover:scale-105 cursor-pointer">
               Book Free Consultation 
             </button>

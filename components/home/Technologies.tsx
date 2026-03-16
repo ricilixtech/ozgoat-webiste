@@ -119,7 +119,7 @@ const Technologies = () => {
   
           {/* ===== Get a Quote Button ===== */}
           <div className="flex justify-center mt-12">
-            <Link href="/contact">
+            <Link href="https://meet.ozgoat.com">
               <button className="bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-lg transition duration-300">
                 Book A Discovery Call →
               </button>

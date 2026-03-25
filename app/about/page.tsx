@@ -12,7 +12,7 @@ export default function AboutPage() {
       <Founders />
       {/* <Values />
       <WhyDifferent /> */}
-      <TrustSection/>
+      {/* <TrustSection/> */}
       <CTASection/>
     </>
   );

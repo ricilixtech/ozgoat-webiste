@@ -163,7 +163,7 @@ const ContactForm = () => {
                 value={formData.phone}
                 onChange={handleChange}
                 className="w-full px-4 py-3 border border-neutral-300 rounded-lg focus:outline-none focus:border-blue-600 transition"
-                placeholder="+61 310473774"
+                placeholder="+61 1300107835"
               />
             </div>
 

@@ -17,7 +17,7 @@ const ContactInfo = () => {
             </div>
             <div>
               <h3 className="font-heading text-lg text-neutral-900 mb-1">Email</h3>
-              <p className="text-neutral-600">ozgoat@gmail.com</p>
+              <p className="text-neutral-600">contact@ozgoat.com</p>
             </div>
           </div>
           

@@ -32,14 +32,7 @@ const ContactDetail = () => {
         </a>
 
         {/* Instagram */}
-        <a
-          href="https://instagram.com/example"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="w-16 h-16 flex items-center justify-center rounded-full bg-pink-100 hover:bg-pink-200 transition shadow-md hover:scale-110"
-        >
-          <FaInstagram className="text-pink-600 text-3xl" />
-        </a>
+        
 
       </div>
     </section>

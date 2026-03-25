@@ -17,7 +17,7 @@ export default function ServicesPage() {
       <MobileWebDevelopment/>
 
       <Delivery/>
-      <TrustSection/>
+      {/* <TrustSection/> */}
     </>
   );
 }

@@ -21,7 +21,7 @@ const bodyFont = Work_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "OzGoat - Business Automation & Digital Solutions",
+  title: "OZGOAT - Business Automation & Digital Solutions",
   description:
     "Transform your business with intelligent automation, CRM optimization, and AI-driven solutions.",
 };

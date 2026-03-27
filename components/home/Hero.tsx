@@ -54,31 +54,44 @@ const Hero = () => {
               className="tracking-tight leading-tight font-heading text-white mb-2"
             >
               <div className="inline-flex text-[12px] xl:text-[15px] items-center text-blue-200 border border-gray-700 rounded-4xl px-3 py-2">
-                <span className="mr-1 font-bold bg-blue-700 border border-blue-700 rounded-3xl px-2 text-white">
+                {/* <span className="mr-1 font-bold bg-blue-700 border border-blue-700 rounded-3xl px-2 text-white">
                   NEW
-                </span>
-                Value Driven, AI-Focused Development Company
+                </span> */}
+                Technology partner for Australian SMEs
               </div>
             </motion.div>
-            <motion.h1 variants={slideInLeft} className="tracking-tight font-bold leading-tight font-heading text-4xl md:text-4xl xl:text-5xl 2xl:text-6xl text-white mb-2">
-              RELIABLE. SUSTAINABLE. AFFORDABLE
-              <p className="text-blue-500">Digital Solutions </p> in Australia
+            <motion.h1 variants={slideInLeft} className="tracking-tight font-bold leading-tight font-heading text-3xl md:text-4xl xl:text-4xl 2xl:text-5xl text-white mb-2">
+            Most growing businesses don't need more technology. They need the <span className="text-blue-500">right technology,</span> used the right way.
             </motion.h1>
             <motion.p variants={slideInLeft} className="text-base font-vody md:text-lg xl:text-xl 2xl:w-3/5 text-neutral-400 mb-8">
-              Smart Web & Software Development designed to win you more customers. We simplify your CRM Integration and Automation Services so your business stays productive and delivers results without the extra effort.
+            OZGOAT is the technology arm for Australian businesses growing faster than their systems. We bring strategic direction, hands-on delivery, and long-term thinking — without the cost of a full-time tech executive.
             </motion.p>
-            <motion.div variants={slideInLeft} className="flex flex-col sm:flex-row gap-4">
-              <Link href="https://meet.ozgoat.com">
-                <button className="bg-blue-600 cursor-pointer font-bold text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition shadow-custom">
-                  Book a Free Consultation
-                </button>
-              </Link>
-              <Link href="/contact">
-                <button className="bg-gray-600 font-bold text-white px-8 py-3 rounded-lg hover:bg-gray-700 transition shadow-custom">
-                  See Our Work
-                </button>
-              </Link>
-            </motion.div>
+            <motion.div variants={slideInLeft} className="flex flex-col gap-4">
+  
+  {/* Buttons row */}
+  <div className="flex flex-col sm:flex-row gap-4">
+    <Link href="https://meet.ozgoat.com">
+      <button className="bg-blue-600 cursor-pointer font-bold text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition shadow-custom">
+        Book a free strategy call
+      </button>
+    </Link>
+
+    <Link href="/contact">
+      <button className="bg-gray-600 font-bold text-white px-8 py-3 rounded-lg hover:bg-gray-700 transition shadow-custom">
+        See how we work →
+      </button>
+    </Link>
+  </div>
+
+  {/* Text below buttons */}
+  <motion.div
+    variants={slideInLeft}
+    className="text-base font-vody md:text-[12px] xl:text-[15px] 2xl:w-3/5 text-neutral-400"
+  >
+    20+ years in fintech, SaaS & EV · Melbourne, Australia · Flexible engagements, no lock-in
+  </motion.div>
+
+</motion.div>
           </motion.div>
 
           {/* ================= IMAGE SECTION ================= */}

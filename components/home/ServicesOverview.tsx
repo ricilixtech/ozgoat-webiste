@@ -79,14 +79,14 @@ const ServicesOverview = () => {
             variants={slideLeft}
             className="font-heading tracking-tight leading-tight text-4xl 2xl:text-5xl text-neutral-900 font-bold mb-4"
           >
-            Three Ways We Help Your <span className="text-blue-600 ">Business Grow</span>{" "}
+            Your Business Is Growing. <span className="text-blue-700">Your Systems</span> Should Too.
           </motion.h2>
 
           <motion.p
             variants={slideLeft}
             className="text-lg text-neutral-600 max-w-2xl mx-auto"
           >
-            Whether you need something built from scratch, your operations streamlined, or a tech team to grow with you: we've got you covered.
+           Most growing businesses don't have a tech problem — they have a systems problem. We fix the gaps that are slowing you down.
           </motion.p>
         </motion.div>
 
@@ -113,7 +113,7 @@ const ServicesOverview = () => {
                 </h3>
 
                 <p className="text-neutral-500 text-sm mb-4">
-                  Custom software and integrations that fit your workflow not the other way around.
+                Your systems should work the way your business works — not force you to work around them. We build what you actually need, not what's easiest to sell.
                 </p>
 
                 {/* Bullet Points */}
@@ -121,7 +121,7 @@ const ServicesOverview = () => {
                   <li>Web & mobile apps</li>
                   <li>CRM/ERP integrations</li>
                   <li>Dashboards & reporting</li>
-                  <li>Cloud deployments (GCP/AWS)</li>
+                  <li>Cloud infrastructure setup</li>
                 </ul>
               </div>
 
@@ -129,7 +129,7 @@ const ServicesOverview = () => {
               <div className="mt-6 pt-4 border-t border-gray-200">
                 <Link href="/services">
                   <button className="px-4 cursor-pointer text-black hover:text-gray-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
-                    Explore Develpoment →
+                  Explore Development →
                   </button>
                 </Link>
               </div>
@@ -152,7 +152,7 @@ const ServicesOverview = () => {
                 </h3>
 
                 <p className="text-neutral-500 text-sm mb-4">
-                  Remove repetitive admin with automation and AI so your team can focus on work that matters.
+                Every hour your team spends on manual tasks is an hour not spent on your customers.
                 </p>
 
                 {/* Bullet Points */}
@@ -189,13 +189,13 @@ const ServicesOverview = () => {
                 </h3>
 
                 <p className="text-neutral-500 text-sm mb-4">
-                  We step in as your tech arm without full-time overheads: the right expertise, when you need it.
+                You don't need a full-time CTO to make smart technology decisions. We embed with your business and give you the strategic direction and delivery capability you need, when you need it.
                 </p>
 
                 {/* Bullet Points */}
                 <ul className="text-gray-800 text-sm space-y-2 list-disc list-inside">
-                  <li>Staff augmentation</li>
-                  <li>Offshore delivery pods</li>
+                  <li>Fractional tech leadership</li>
+                  <li>On-demand delivery support</li>
                   <li>Product & delivery support</li>
                   <li>Monitoring & improvements</li>
                 </ul>
@@ -233,22 +233,21 @@ const ServicesOverview = () => {
               variants={slideLeft}
               className="font-heading rounded-2xl bg-gray-200 text-blue-500 font-medium text-sm px-6 py-1"
             >
-              HOW WE WORK
+              HOW WE ENGAGE
             </motion.div>
           </div>
           <motion.h2
             variants={slideLeft}
             className="font-heading tracking-tight leading-tight text-4xl 2xl:text-5xl text-neutral-900 font-bold my-4"
           >
-            <p>Flexible Engagement Models</p>
-            to Suit Your Needs
+            Work with us the way that suits your business
           </motion.h2>
 
           <motion.p
             variants={slideLeft}
             className="text-lg text-neutral-600 max-w-2xl mx-auto"
           >
-            Find the perfect solution for your project: whether you need a fully managed team, staff augmentation, or a fixed-price approach.
+            No two businesses are the same. Whether you need us to take the wheel, top up your team, or deliver something specific — we'll find the right fit.
           </motion.p>
         </motion.div>
 
@@ -272,11 +271,11 @@ const ServicesOverview = () => {
               <div>
                 <h3 className="text-black font-bold font-heading text-2xl mb-3">
                   <a className="text-3xl mb-4">🧩</a>
-                  <div className="my-5">Managed Team</div>
+                  <div className="my-5">We run it for you</div>
                 </h3>
 
                 <p className="text-neutral-500 text-sm mb-4">
-                  Your product, our dedicated team. From concept to completion, we handle it all: design, development, QA, and deployment.
+                You focus on the business. We own the technology end-to-end — strategy, build, testing, and launch. No project management overhead on your side.
                 </p>
 
 
@@ -286,7 +285,7 @@ const ServicesOverview = () => {
               <div className="pt-4 border-gray-200">
                 <Link href="/services">
                   <button className="px-4 cursor-pointer text-blue-600 hover:text-blue-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
-                    Contact Us For More Details →
+                  This sounds like me →
                   </button>
                 </Link>
               </div>
@@ -306,11 +305,11 @@ const ServicesOverview = () => {
               <div>
                 <h3 className="text-black font-bold font-heading text-2xl mb-3">
                   <a className="text-3xl mb-4">🔌</a>
-                  <div className="my-5">Staff Augmentation</div>
+                  <div className="my-5">We plug into your team</div>
                 </h3>
 
                 <p className="text-neutral-500 text-sm mb-4">
-                  Need extra hands? Our experts seamlessly join your team, providing the skills you need, exactly when you need them.
+                Already have a team but missing the technical depth? We embed with your people and fill the gaps — without the cost or commitment of a full-time hire.
                 </p>
 
 
@@ -320,7 +319,7 @@ const ServicesOverview = () => {
               <div className="pt-4 border-gray-200">
                 <Link href="/services">
                   <button className="px-4 cursor-pointer text-blue-600 hover:text-blue-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
-                    Contact Us For More Details →
+                  This sounds like me →
                   </button>
                 </Link>
               </div>
@@ -339,11 +338,11 @@ const ServicesOverview = () => {
               <div>
                 <h3 className="text-black font-bold font-heading text-2xl mb-3">
                   <a className="text-3xl mb-4">📋</a>
-                  <div className="my-5">Fixed Cost</div>
+                  <div className="my-5">Deliver something specific</div>
                 </h3>
 
                 <p className="text-neutral-500 text-sm mb-4">
-                  Upfront price or Hourly rates, guaranteed delivery. Your project completed on time and within budget: no surprises, ever.
+                Have a clearly defined project? We scope it, price it, and deliver it. Fixed timeline, fixed cost — you know exactly what you're getting before we start.
                 </p>
 
 
@@ -353,7 +352,7 @@ const ServicesOverview = () => {
               <div className="pt-4 border-gray-200">
                 <Link href="/services">
                   <button className="px-4 cursor-pointer text-blue-600 hover:text-blue-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
-                    Contact Us For More Details →
+                  This sounds like me →
                   </button>
                 </Link>
               </div>
@@ -364,7 +363,7 @@ const ServicesOverview = () => {
         <div className="flex justify-center mt-12">
             <Link href="https://meet.ozgoat.com">
               <button className="bg-blue-600 cursor-pointer hover:bg-blue-700 text-white font-bold px-8 py-3 rounded-lg transition duration-300">
-                Book A Discovery Call →
+              Not sure which fits? Let's figure it out together →
               </button>
             </Link>
           </div>

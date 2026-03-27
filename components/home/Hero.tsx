@@ -84,12 +84,7 @@ const Hero = () => {
   </div>
 
   {/* Text below buttons */}
-  <motion.div
-    variants={slideInLeft}
-    className="text-base font-vody md:text-[12px] xl:text-[15px] 2xl:w-3/5 text-neutral-400"
-  >
-    20+ years in fintech, SaaS & EV · Melbourne, Australia · Flexible engagements, no lock-in
-  </motion.div>
+
 
 </motion.div>
           </motion.div>
@@ -124,8 +119,7 @@ const Hero = () => {
 
               <p className="text-neutral-300 drop-shadow-md mt-2">
                 With a belief in Strategy First, Build Second.
-                <span className="font-bold"> 20+ years</span> helping businesses scale by
-                leveraging the right technology the right way.
+                <span className="font-bold"> 20+ years</span> in fintech, SaaS & EV · Melbourne, Australia · Flexible engagements, no lock-in
               </p>
 
               {/* LinkedIn Button */}

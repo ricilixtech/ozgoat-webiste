@@ -12,9 +12,10 @@ export default function Home() {
     <>
       <Hero />
       <ServicesOverview />
-      <Technologies/>
       
-      <CaseStudyPreview />
+      {/* <Technologies/> */}
+      
+      {/* <CaseStudyPreview /> */}
       
       {/* <TrustSection /> */}
       <CTASection />

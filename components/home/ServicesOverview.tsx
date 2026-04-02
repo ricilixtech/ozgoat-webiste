@@ -79,14 +79,15 @@ const ServicesOverview = () => {
             variants={slideLeft}
             className="font-heading tracking-tight leading-tight text-4xl 2xl:text-5xl text-neutral-900 font-bold mb-4"
           >
-            Your Business Is Growing. <span className="text-blue-700">Your Systems</span> Should Too.
+            Three ways we help your <span className="text-blue-700">business stop being</span>
+            <p>held back by its own systems</p>
           </motion.h2>
 
           <motion.p
             variants={slideLeft}
-            className="text-lg text-neutral-600 max-w-2xl mx-auto"
+            className="text-lg text-neutral-600 max-w-3xl mx-auto"
           >
-           Most growing businesses don't have a tech problem — they have a systems problem. We fix the gaps that are slowing you down.
+           Whether you need something built, something automated, or someone to sit alongside you and make the right technology calls — this is how we work.
           </motion.p>
         </motion.div>
 
@@ -113,15 +114,18 @@ const ServicesOverview = () => {
                 </h3>
 
                 <p className="text-neutral-500 text-sm mb-4">
-                Your systems should work the way your business works — not force you to work around them. We build what you actually need, not what's easiest to sell.
+                Systems and software that fit the way your business actually works — not the other way around.
                 </p>
+                
 
                 {/* Bullet Points */}
                 <ul className="text-gray-800 text-sm space-y-2 list-disc list-inside">
-                  <li>Web & mobile apps</li>
-                  <li>CRM/ERP integrations</li>
-                  <li>Dashboards & reporting</li>
-                  <li>Cloud infrastructure setup</li>
+                  <li>Web & mobile applications — customer-facing or internal, built to your spec</li>
+                  <li>CRM & ERP integrations — HubSpot, Salesforce, Xero, and more</li>
+                  <li>Dashboards & reporting — real-time business insights</li>
+                  <li>Customer portals — self-service tools to reduce team workload</li>
+                  <li>Cloud infrastructure — scalable setup (GCP / AWS)</li>
+                  <li>API connections — connect your existing tools seamlessly</li>
                 </ul>
               </div>
 
@@ -129,7 +133,7 @@ const ServicesOverview = () => {
               <div className="mt-6 pt-4 border-t border-gray-200">
                 <Link href="/services">
                   <button className="px-4 cursor-pointer text-black hover:text-gray-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
-                  Explore Development →
+                  Talk to us about building something →
                   </button>
                 </Link>
               </div>
@@ -152,15 +156,17 @@ const ServicesOverview = () => {
                 </h3>
 
                 <p className="text-neutral-500 text-sm mb-4">
-                Every hour your team spends on manual tasks is an hour not spent on your customers.
+                Every hour your team spends on manual tasks is an hour not spent on your customers
                 </p>
 
                 {/* Bullet Points */}
                 <ul className="text-gray-800 text-sm space-y-2 list-disc list-inside">
-                  <li>Zapier & low-code workflows</li>
-                  <li>AI document processing</li>
-                  <li>Chatbots & internal tools</li>
-                  <li>Reporting automation</li>
+                  <li>Workflow automation — end-to-end processes</li>
+                  <li>AI document processing — extract, classify, route data</li>
+                  <li>Customer communication workflows — automated follow-ups & reminders</li>
+                  <li>CRM automation — leads, tasks, pipeline updates</li>
+                  <li>Reporting & data pipelines — automated dashboards & reports</li>
+                  <li>Internal tooling — lightweight automation apps</li>
                 </ul>
               </div>
 
@@ -168,7 +174,7 @@ const ServicesOverview = () => {
               <div className="mt-6 pt-4 border-t border-gray-200">
                 <Link href="/services">
                   <button className="px-4 cursor-pointer text-black hover:text-gray-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
-                    Explore Automation →
+                  Show us what you're doing manually →
                   </button>
                 </Link>
               </div>
@@ -189,15 +195,17 @@ const ServicesOverview = () => {
                 </h3>
 
                 <p className="text-neutral-500 text-sm mb-4">
-                You don't need a full-time CTO to make smart technology decisions. We embed with your business and give you the strategic direction and delivery capability you need, when you need it.
+                You don't need a full-time CTO to make smart technology decisions. You need the right thinking, at the right time.
                 </p>
 
                 {/* Bullet Points */}
                 <ul className="text-gray-800 text-sm space-y-2 list-disc list-inside">
                   <li>Fractional tech leadership</li>
-                  <li>On-demand delivery support</li>
-                  <li>Product & delivery support</li>
-                  <li>Monitoring & improvements</li>
+                  <li>Technology roadmapping</li>
+                  <li>Vendor & platform selection</li>
+                  <li>Team support & mentoring</li>
+                  <li>On-demand delivery</li>
+                  <li>Monitoring & continuous improvement</li>
                 </ul>
               </div>
 
@@ -205,7 +213,7 @@ const ServicesOverview = () => {
               <div className="mt-6 pt-4 border-t border-gray-200">
                 <Link href="/services">
                   <button className="px-4 cursor-pointer text-black hover:text-gray-400 font-bold text-sm py-2.5 rounded-lg transition duration-300">
-                    Explore Support →
+                  Talk to us about becoming your tech partner →
                   </button>
                 </Link>
               </div>

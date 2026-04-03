@@ -62,16 +62,7 @@ const Navbar = () => {
     const navLinks: NavLink[] = [
         { href: '/', label: 'Home' },
 
-        {
-            label: 'Services',
-            submenu: [
-                { href: '/services', label: 'All Services →' },
-                { href: '/services#automation', label: 'Business Process Automation' },
-                { href: '/services#software', label: 'Software Development' },
-                { href: '/services#crm', label: 'CRM Integration' },
-                { href: '/services#apps', label: 'Mobile & Web App Development' },
-            ],
-        },
+        { href: '/services', label: 'What We Do' },
 
         { href: '/about', label: 'About' },
 

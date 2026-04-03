@@ -5,27 +5,27 @@ const BusinessAutomation = () => {
   const services = [
     {
       title: "Workflow Automation",
-      desc: "Say goodbye to boring, repetitive tasks. We automate your manual workflows to save time, eliminate human error, and boost your team's daily output.",
+      desc: "end-to-end processes",
     },
     {
-      title: "CRM & Sales Automation",
-      desc: "Never miss a lead again. Automatically track follow-ups and manage your sales pipeline so you can close deals faster and keep your customers happy.",
+      title: "AI document processing",
+      desc: "extract, classify, route data",
     },
     {
-      title: "API Integrations",
-      desc: "Make your tools talk to each other. We connect your existing platforms seamlessly so your data flows exactly where it needs to be, without the mess.",
+      title: "Customer communication workflows",
+      desc: "automated follow-ups & reminders",
     },
     {
-      title: "Data Synchronization",
-      desc: "Keep your info consistent across all apps and databases in real-time. No more manual data entry or double-handling—just one source of truth.",
+      title: "CRM automation",
+      desc: "leads, tasks, pipeline updates",
     },
     {
-      title: "Reporting & Analytics Automation",
-      desc: "Get real-time insights with automated dashboards. Track your performance and make smarter, data-backed decisions without spending hours on spreadsheets.",
+      title: "Reporting & data pipelines",
+      desc: "automated dashboards & reports",
     },
     {
-      title: "Custom Business Applications",
-      desc: "Software built specifically for YOU. We design tailored applications that solve your unique business problems and scale as you grow.  ",
+      title: "Internal tooling",
+      desc: "lightweight automation apps",
     },
   ];
 
@@ -34,13 +34,15 @@ const BusinessAutomation = () => {
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="inline-block font-heading text-blue-600 py-2 text-4xl xl:text-5xl font-extrabold mb-6">
-        Smart Business Process Automation
+        Automate
         </div>
 
-        <div className="md:w-2/3 xl:w-1/2 mb-12">
-          <p className="text-neutral-600">
-          We build custom software that fits your business like a glove. From simple apps to complex multi-system integrations, we automate your daily tasks so your team can focus on what really matters—growing your business in Australia.
+        <div className="md:w-2/3 xl:w-1/2 mb-12 font-body text-neutral-600">
+          <p className="">
+          Every hour your team spends on manual tasks is an hour not spent on your customers.
           </p>
+          <p className="py-3">We identify repetitive, time-consuming tasks and automate them reliably. Not because automation is trendy, but because freeing your team from low-value work improves efficiency and morale.</p>
+          <p>We start with problems, not tools, then match the right platform (Zapier, Make, n8n, or custom workflows).</p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -60,7 +62,7 @@ const BusinessAutomation = () => {
         <div className="pt-6 text-center justify-between item-center border-gray-200">
                 <Link href="/contact">
                   <button className="bg-blue-600 hover:bg-blue-500 px-3 cursor-pointer mt-3 text-white hover:text-blue-100 font-bold text-sm py-2.5 rounded-lg transition duration-300">
-                    Contact Us For More Details →
+                  Show us what you're doing manually →
                   </button>
                 </Link>
               </div>

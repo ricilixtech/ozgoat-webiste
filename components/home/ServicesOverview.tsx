@@ -120,12 +120,12 @@ const ServicesOverview = () => {
 
                 {/* Bullet Points */}
                 <ul className="text-gray-800 text-sm space-y-2 list-disc list-inside">
-                  <li>Web & mobile applications — customer-facing or internal, built to your spec</li>
-                  <li>CRM & ERP integrations — HubSpot, Salesforce, Xero, and more</li>
-                  <li>Dashboards & reporting — real-time business insights</li>
-                  <li>Customer portals — self-service tools to reduce team workload</li>
-                  <li>Cloud infrastructure — scalable setup (GCP / AWS)</li>
-                  <li>API connections — connect your existing tools seamlessly</li>
+                  <li>Web & mobile applications</li>
+                  <li>CRM & ERP integrations</li>
+                  <li>Dashboards & reporting</li>
+                  <li>Customer portals</li>
+                  <li>Cloud infrastructure</li>
+                  <li>API connections</li>
                 </ul>
               </div>
 
@@ -161,12 +161,12 @@ const ServicesOverview = () => {
 
                 {/* Bullet Points */}
                 <ul className="text-gray-800 text-sm space-y-2 list-disc list-inside">
-                  <li>Workflow automation — end-to-end processes</li>
-                  <li>AI document processing — extract, classify, route data</li>
-                  <li>Customer communication workflows — automated follow-ups & reminders</li>
-                  <li>CRM automation — leads, tasks, pipeline updates</li>
-                  <li>Reporting & data pipelines — automated dashboards & reports</li>
-                  <li>Internal tooling — lightweight automation apps</li>
+                  <li>Workflow automation</li>
+                  <li>AI document processing</li>
+                  <li>Customer communication workflows</li>
+                  <li>CRM automation</li>
+                  <li>Reporting & data pipelines</li>
+                  <li>Internal tooling</li>
                 </ul>
               </div>
 

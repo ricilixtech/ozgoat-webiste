@@ -24,7 +24,7 @@ const ServicesHero = () => {
             Book a Free Discovery Call →
           </Link>
           <Link
-            href="/portfolio"
+            href="/blog"
             className="inline-block mt-2 text-white px-6 py-3 mx-4 rounded-lg font-semivold border border-neutral-600 hover:border-neutral-400 transition"
           >
             See Our Work

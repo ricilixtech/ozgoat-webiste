@@ -11,7 +11,7 @@ export default function ServicesPage() {
     <>
       <ServicesHero />
 
-      <BusinessAutomation />
+      {/* <BusinessAutomation /> */}
       <SoftwareDevelopment/>
       <CRMIntegration/>
       <MobileWebDevelopment/>

@@ -3,28 +3,28 @@ import Link from "next/link";
 const SoftwareDevelopment = () => {
   const services = [
     {
-      title: "Custom Software Development",
-      desc: "Get a competitive edge with tailor-made software solutions designed for your specific business processes. We build apps that solve your unique challenges and grow as you do.",
+      title: "Web & mobile applications",
+      desc: "customer-facing or internal, built to your spec",
     },
     {
-      title: "Enterprise Software",
-      desc: "Scale your operations with robust enterprise-grade systems. We streamline complex workflows and improve cross-department efficiency for growing Australian SMEs.",
+      title: "CRM & ERP integrations",
+      desc: "HubSpot, Salesforce, Xero, and more",
     },
     {
-      title: "Cloud-Based Applications",
-      desc: "Access your business anywhere with secure cloud solutions. We create scalable cloud applications that offer high availability, top-tier security, and seamless remote access.",
+      title: "Dashboards & reporting",
+      desc: "real-time business insights",
     },
     {
-      title: "Software Modernization",
-      desc: "Dont let old tech hold you back. We upgrade legacy systems with modern technologies to boost performance, tighten security, and reduce maintenance costs.",
+      title: "Customer portals",
+      desc: "self-service tools to reduce team workload",
     },
     {
-      title: "System Architecture Design",
-      desc: "Future-proof your business with scalable system architecture. We design reliable frameworks that support long-term growth and handle high traffic without a hitch.",
+      title: "Cloud infrastructure",
+      desc: "scalable setup (GCP / AWS)",
     },
     {
-      title: "Maintenance & Support",
-      desc: "Keep your software running perfectly with 24/7 ongoing support. From monitoring to regular updates, we ensure your tech stays fast, secure, and bug-free.",
+      title: "API connections",
+      desc: "connect your existing tools seamlessly",
     },
   ];
 
@@ -33,14 +33,16 @@ const SoftwareDevelopment = () => {
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
 
         <div className="font-heading text-blue-600 text-4xl xl:text-5xl font-extrabold mb-6">
-        Custom Software Development Australia
+          Build
         </div>
 
         <div className="md:w-2/3 xl:w-1/2 mb-12">
-          <p className="text-neutral-600">
-          Build powerful, scalable software solutions tailored to your unique business goals. From Brisbane to Perth, we help Aussie companies modernize their tech stack with secure, high-performing applications that drive real results.
-          </p>
-        </div>
+
+          <div className="py-4 text-neutral-600">
+            <p>Systems and software that fit the way your business actually works — not the other way around.</p>
+
+            <p className="py-5">We take the time to understand your operations first — how jobs move through your business, where the friction is, what your team actually needs day to day. Then we build or configure systems that slot into your workflow and grow with you.</p>
+            <p>The goal isn't impressive technology. It's technology that makes your business run better.</p> </div>       </div>
 
         <div className="grid md:grid-cols-2 gap-6 xl:gap-8">
           {services.map((item, index) => (
@@ -54,7 +56,7 @@ const SoftwareDevelopment = () => {
         <div className="pt-6 text-center">
           <Link href="/contact">
             <button className="bg-blue-600 hover:bg-blue-500 px-3 mt-3 text-white font-bold text-sm py-2.5 rounded-lg transition">
-              Contact Us For More Details →
+            Talk to us about building something →
             </button>
           </Link>
         </div>

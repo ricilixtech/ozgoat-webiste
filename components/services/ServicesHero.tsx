@@ -33,13 +33,13 @@ const ServicesHero = () => {
 
       </div>
       {/* ===== STATS BOXES ===== */}
-      <div className="bg-blue-600 text-white mt-10 py-8 xl:mt-12 text-center justify center">
+      <div className="bg-blue-600 text-white mt-10 py-8 xl:mt-12 text-center justify center font-body">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <p>We believe technology should be an enabler, not a driver. Before we recommend anything, we understand your business.</p>
-<p className="font-bold text-4xl pt-2">Strategy first. Build second.</p>
+          <p className="font-bold text-4xl pt-2">Strategy first. Build second.</p>
         </div>
       </div>
-      <Servicesoverview />
+      {/* <Servicesoverview /> */}
     </section>
   );
 };

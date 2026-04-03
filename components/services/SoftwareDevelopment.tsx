@@ -56,7 +56,7 @@ const SoftwareDevelopment = () => {
         <div className="pt-6 text-center">
           <Link href="/contact">
             <button className="bg-blue-600 hover:bg-blue-500 px-3 mt-3 text-white font-bold text-sm py-2.5 rounded-lg transition">
-            Talk to us about building something →
+              Talk to us about building something →
             </button>
           </Link>
         </div>
